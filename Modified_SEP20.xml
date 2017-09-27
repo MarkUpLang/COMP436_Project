@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport_cricket>
+<ipl>
+    <name>Kolkatta Night Riders</name>
+    <members>21</members>
+    <state>Kolkatta, India</state>
+    <owner>Sharukh Khan</owner>
+    <captain>Gautam Gambhir</captain>
+    <players> Robin Venu Uthappa, Rovman Powell, Shakib Al Hasan, Sheldon Jackson, Sunil Philip Narine, Suryakumar Ashok Yadav,Trent Alexander Boult, Umeshkumar Tilak Yadav, Rishi Dhawan, Piyush Pramod Chawla, Nathan Mitchell Coulter-Nile, Andre Dwayne Russell, Ankitsingh Rajpoot, Christopher Austin Lynn, Christopher Roger Woakes, Darren Michael Bravo, Ishank Rajiv Jaggi, Kuldeep Yadav, Manish Krishnanand Pandey, Yusuf Pathan
+</ipl>
+
+<ipl>
+    <name>Kings XI Punjab</name>
+     <members>11</members>
+    <state>Punjab, India</state>
+    <owner>Preity Zinta, Ness Wadia, Mohit Burman, The Oberoi Group, Karan Paul</owner>
+    <captain>Glenn Maxwell</captain>
+    <players> Matt Henry, Mohit Sharma, Ishant Sharma, Nikhil Naik, Rahul Tewatia, Sandeep Sharma, Shaun Marsh, Swapnil Singh, Varun Aaron, Martin Guptill, Marcus Stoinis, Akshar Patel, Anureet Singh, David Miller, Darren Sammy, Eoin Morgan, Gurkeerat Singh, Hashim Amla, KC Cariappa, Manan Vohra, Wriddhiman Saha
+    </players>
+</ipl>
+</sport_cricket>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sports_team>
+<sport>
+    <name>Indian Cricket Team</name>
+     <members>11</members>
+    <description>
+        Captain - Virat Kohli
+        Batsman - M.S. Dhoni
+        Bowler - Harbajan Singh
+   </description>
+   <board> BCC </board>
+</sport>
+<sport>
+    <name>Germany Football Team</name>
+    <members>11</members>
+    <description>
+        Defender - Mats Hummels
+        Goal Keeper - Manuel Neuer 
+        Midfielder  - Julia
+   </description>
+   <board> NFL </board>
+</sport>
+</sports_team>
