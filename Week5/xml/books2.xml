@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books2.xsl"?>
+<collection>
+	<book>
+		<title>Malgudi Days</title>
+		<author>R.K. Narayan</author>
+		<year>1942</year>
+		<page>150</page>
+		<genre>Short story collection</genre>
+		<language>English</language>
+		<price>$1.99</price>
+		<publisher>India Thought Publications</publisher>
+		<isbn>81-85986-17-7</isbn>
+	</book>
+
+	<book>
+		<title>Wings of Fire</title>
+		<author>A.P.J.Abdul Kalam</author>
+		<year>1999</year>
+		<page>180</page>
+		<genre>Autobiography</genre>
+		<language>English, Hindi, Tamil</language>
+		<price>$10.99</price>
+		<publisher>Universities Press</publisher>
+		<isbn>81-7371-146-1</isbn>
+	</book>
+</collection>
