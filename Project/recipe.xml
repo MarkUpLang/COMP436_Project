@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="recipe.xsl"?>
+<cookbook>
+	<recipe>
+		<title>Lemon Rice</title>
+		<preptime>10 mins</preptime>
+		<cooktime>15 mins</cooktime>
+		<serves>2</serves>
+		<cuisine>South Indian</cuisine>
+		<category>Main Dish</category>
+		<ingredient>
+			<li>Cooked Rice 1 Cup</li>
+   			<li>Sesame seed oil -1 tsp for rice</li>
+   			<li>Lemon 1 (juicy one)</li>
+   			<li>Cashewnuts 6</li>
+   			<li>Salt to taste</li>
+		</ingredient>
+
+		<seasoning>
+			<li>Oil - 3tsp</li>
+   			<li>Mustard seeds -1tsp</li>
+   			<li>Urad dal (split ones) - 1tsp</li>
+   			<li>Channa dal/kadalai paruppu - 1tsp</li>
+   			<li>Red Chillies - 1</li>
+   			<li>Asafoetida - a pinch</li>
+   			<li>Green chillies - 2</li>
+   			<li>Finely chopped ginger - 1tsp</li>
+   			<li>Turmeric Powder - 1/4tsp</li>
+   			<li>Curry leaves - few</li>
+   			<li>Finely chopped carrot -2 tbsp (optional)</li>
+		</seasoning>
+  
+		<description>
+			<li>Cook rice in such a way that each grains are separate. Spread it on a plate, mix a tsp of sesame seed oil to it, so that the grains will not stick together.</li>
+			<li>Saute cashew nuts in 1/2 tsp oil until golden brown and keep it aside.</li>
+			<li>Heat oil, add mustard seeds, when mustard splutters , add urad dal, channa dal, red chillies and asafoetida.</li> 
+			<li>When dal turns slightly brown, add green chillies, ginger, turmeric powder, curry leaves and finely chopped carrots (optional ).</li>
+			<li>Saute until the carrots are slightly cooked.</li>
+			<li>Squeeze lemon juice in a cup, add salt to it. Mix well and add it to the rice.</li>
+			<li>Add the seasoning and cashew nuts also to the rice and mix well. Taste and see. If required add more salt and lemon juice.</li>
+			<li>Serve with papads or chips or roasted potatoes.</li> 
+		</description>
+		<reference_url>http://www.padhuskitchen.com/2009/09/lemon-rice.html</reference_url>
+		<video_url>http://www.videourl</video_url>
+		<imageurl>http://www.recipeurl/original_image</imageurl>
+</recipe>
+</cookbook>
