@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<art_work>
+  <painting>
+    <title>the supreem art</title>
+    <category>haunted</category>
+    <year>1434</year>
+    <genre>Northen Reniance</genre>
+    <museum_location>london</museum_location>
+    <history>painting moved to national gallery,britain in 19th century</history>
+    <description> a man and a woman standing in the bedroom during daytime, out of two candles, one was burning which symbolizes she is dead and he is not, very important point of his life is gone </description>
+    <art_historian>Dr. Margrete</art_historian>
+    <mystery>
+        <mystery_objectes> Candles</mystery_objectes>
+        <mystery_objectes> Mysterical images of christ on the Mirror</mystery_objectes>
+        <mystery_objectes> Candles</mystery_objectes>
+        <mystery_objectes> Couple's identity</mystery_objectes>
+    </mystery>
+
+  </painting>
+
+</art_work>
