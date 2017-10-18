@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cookbook>
+	<recipe>
+		<title>Lemon Rice</title>
+		<type>South</type>
+		<preptime>25 mins</preptime>
+		<serves>2</serves>
+		<ingredient>
+				<li>Cooked Rice 1 Cup</li>
+   				<li>Sesame seed oil -1 tsp for rice</li>
+   				<li>Lemon 1 (juicy one)</li>
+   				<li>Cashewnuts 6</li>
+   				<li>Salt to taste</li>
+		</ingredient>
+		<seasoning>
+			<li>Oil - 3tsp</li>
+   			<li>Mustard seeds -1tsp</li>
+   			<li>Urad dal (split ones) - 1tsp</li>
+   			<li>Channa dal/kadalai paruppu - 1tsp</li>
+   			<li>Red Chillies - 1</li>
+   			<li>Asafoetida - a pinch</li>
+   			<li>Green chillies - 2</li>
+   			<li>Finely chopped ginger - 1tsp</li>
+   			<li>Turmeric Powder - 1/4tsp</li>
+   			<li>Curry leaves - few</li>
+   			<li>Finely chopped carrot -2 tbsp (optional)</li>
+		</seasoning>
+		<description>
+			<li>Cook rice in such a way that each grains are separate. Spread it on a plate, mix a tsp of sesame seed oil to it, so that the grains will not stick together.</li>
+			<li>Saute cashew nuts in 1/2 tsp oil until golden brown and keep it aside.</li>
+			<li>Heat oil, add mustard seeds, when mustard splutters , add urad dal, channa dal, red chillies and asafoetida.</li> 
+			<li>When dal turns slightly brown, add green chillies, ginger, turmeric powder, curry leaves and finely chopped carrots (optional ).</li>
+			<li>Saute until the carrots are slightly cooked.</li>
+			<li>Squeeze lemon juice in a cup, add salt to it. Mix well and add it to the rice.</li>
+			<li>Add the seasoning and cashew nuts also to the rice and mix well. Taste and see. If required add more salt and lemon juice.</li>
+			<li>Serve with papads or chips or roasted potatoes.</li> 
+		</description>
+		<imgid>rec_image</imgid>
+		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
+	</recipe>
+
+	<recipe>
+		<title>Semiya Payasam</title>
+		<type>South</type>
+		<preptime>45mins</preptime>
+		<serves>4</serves>
+		<ingredient>
+				<li>Milk - 5 cups</li>
+   				<li>Vermicelli/Semiya - 75 grams or 1/2 cup +2 tbsp</li>
+   				<li>Sugar -1/2 cup (or as required)</li>
+   				<li>Cashew nuts - 8 - 10</li>
+   				<li>Cardamom - 3-4 ( powder it)</li>
+   				<li>Raisins -10 -15</li>
+   				<li>Ghee ( clarified butter) - 1 tbsp</li>
+		</ingredient>
+		<seasoning>
+			<li>Heat 2 tsp of ghee in a pan and roast Vermicelli/semiya until light golden brown. Remove and keep it aside.</li>
+   			<li>In the same pan, heat some more ghee and fry cashew nuts and raisins separately. Keep it aside.</li>
+   			<li>Powder cardamom with a tsp of sugar and keep it ready.</li>
+		</seasoning>
+		<description>
+			<li>Boil milk in a heavy bottomed pan, then add the roasted vermicelli to it and cook on medium heat until it becomes soft. Keep stirring it to prevent it from getting burnt. (I used 3.5% fat milk)</li>
+			<li>Add sugar and stir until it dissolves.</li>
+			<li>Add cardamom powder, cashew nuts and raisins.</li> 
+			<li>Vermicelli kheer is ready to be served. It can be served hot or chilled according to individual preferences.</li>
+			<li>As it cools the kheer will become thick. You can add hot or cold milk to adjust the consistency of the kheer before serving.</li> 
+		</description>
+		<imgid>rec_image</imgid>
+		<imageurl>http://i.ndtvimg.com/i/2015-05/payasam-sevai-625_625x350_71431150303.jpg</imageurl>
+	</recipe>
+
+	<recipe>
+		<title>Chicken Tikka Masala</title>
+		<type>West</type>
+		<preptime>35mins</preptime>
+		<serves>4</serves>
+		<ingredient>
+				<li>1 teaspoon salt, or to taste 6</li>
+				<li>3 boneless skinless chicken breasts, cut into bite-size pieces 7</li>
+				<li>4 long skewers 8</li>
+				<li>1 clove garlic, minced 1</li>
+				<li>2 tablespoon butter 2</li>
+				<li>3 teaspoons ground cumin 3</li>
+				<li>4 1/4 cup chopped fresh cilantro 4</li>
+				<li>5 2 teaspoons paprika 5</li>
+				<li>6 teaspoon salt, or to taste 6</li>
+				<li>7 1 (8 ounce) can tomato sauce 7</li>
+				<li>8 1 cup heavy cream 8</li>
+		</ingredient>
+		<seasoning>
+			<li>In a large bowl, combine 1 cup yogurt, lemon juice, 2 teaspoons cumin, 1 tsp cinnamon, 2 tsp cayenne, 2 tsp black pepper, ginger, and salt. Stir in chicken, cover, and refrigerate for 1 hour. </li>
+			<li>Preheat a grill for high heat. </li>
+		</seasoning>
+		<description>
+			<li>Lightly oil the grill grate. Thread chicken onto skewers, and discard marinade. Grill until juices run clear, about 5 minutes on each side. </li>
+			<li>Melt butter in a large heavy skillet over medium heat. Saute garlic and jalapeno for 1 minute. Season with 2 teaspoons cumin, paprika, and 3 teaspoons salt. Stir in tomato sauce and cream. Simmer on low heat until sauce thickens, about 20 minutes. Add grilled chicken, and simmer for 10 minutes. Transfer to a serving platter, and garnish with fresh cilantro.</li>
+		</description>
+		<imgid>rec_image</imgid>
+		<imageurl>http://www.simplyrecipes.com/wp-content/uploads/2017/02/2017-02-27-ChickenTikkaMasala-18.jpg</imageurl>
+	</recipe>
+
+
+	<recipe>
+		<title>Pav Bhaji</title>
+		<type>West</type>
+		<preptime>45 mins</preptime>
+		<serves>2</serves>
+		<ingredient>
+				<li>2 green chillies slit lengthwise</li>
+   				<li>2 buns (called pavs)</li>
+   				<li>Lemon 1 (juicy one)</li>
+   				<li>Salt to taste</li>
+                <li>1 tsp ginger, minced</li>
+   			    <li>1 large onion chopped finely</li>
+   			    <li>Red Chillies - 1</li>
+   			    <li>1 tsp minced garlic</li>
+   			    <li>2 green chillies slit lengthwise</li>
+   			    <li>Finely chopped ginger - 1tsp</li>
+                <li>1/2 cup boiled green peas</li>                   
+		</ingredient>
+		<seasoning>
+			<li>Oil - 2tsp</li>
+   			<li>Mustard seeds -1tsp</li>
+      		<li>Turmeric Powder - 1/4tsp</li>
+   			<li>3 tomatoes, finely chopped</li>
+   			<li>3 tsp pav bhaji masala</li>
+            <li>1 tsp red chili powder</li>
+		</seasoning>
+		<description>
+			<li>Heat oil in a pan. Add onions, ginger, garlic, and green chillies and sauté till golden brown. Add boiled vegetables and stir.</li>
+			<li>Stir in the pav bhaji masala, turmeric, tomatoes, capsicum and salt. Add slit green chillies and water and mix it well. Cook for 4-5 minutes.</li>
+			<li>Mash the vegetables till they are little pulpy.</li> 
+			<li>Add lemon juice and serve with toasted buns or other bread.</li> 
+		</description>
+		<imgid>rec_image</imgid>
+		<imageurl>https://indianhealthyrecipes.com/wp-content/uploads/2017/03/pav-bhaji.jpg</imageurl>
+	</recipe>
+
+<recipe>
+		<title>Naan</title>
+		<type>East</type>
+		<preptime>55 mins</preptime>
+		<serves>2</serves>
+		<ingredient>
+				<li>1 (.25 ounce) package active dry yeast</li>
+   				<li>1 cup warm water</li>
+   				<li>1/4 cup white sugar</li>
+   				<li>3 tablespoons milk</li>
+   				<li>Salt to taste</li>
+		</ingredient>
+		<seasoning>
+			<li>Oil - 3tsp</li>
+   			<li>2 teaspoons salt</li>
+   			<li>2 teaspoons minced garlic</li>
+   			<li>1/4 cup butter, melted</li>
+		</seasoning>
+		<description>
+			<li>In a large bowl, dissolve yeast in warm water. Let stand about 10 minutes, until frothy. Stir in sugar, milk, egg, salt, and enough flour to make a soft dough.</li>
+			<li> Knead for 6 to 8 minutes on a lightly floured surface, or until smooth. Place dough in a well oiled bowl, cover with a damp cloth, and set aside to rise. Let it rise 1 hour, until the dough has doubled in volume. </li>
+			<li>Punch down dough, and knead in garlic. Pinch off small handfuls of dough about the size of a golf ball. Roll into balls, and place on a tray. Cover with a towel, and allow to rise until doubled in size, about 30 minutes.</li> 
+			<li>During the second rising, preheat grill to high heat.</li>
+			<li>At grill side, roll one ball of dough out into a thin circle. Lightly oil grill. Place dough on grill, and cook for 2 to 3 minutes, or until puffy and lightly browned.</li>
+			<li> Brush uncooked side with butter, and turn over. Brush cooked side with butter, and cook until browned, another 2 to 4 minutes. Remove from grill, and continue the process until all the naan has been prepared.</li>
+		</description>
+		<imgid>rec_image</imgid>
+		<imageurl>http://rasamalaysia.com/wp-content/uploads/2011/02/naan3.jpg</imageurl>
+	</recipe>
+
+	<recipe>
+		<title>Dhaal Tadka</title>
+		<type>East</type>
+		<preptime>35 mins</preptime>
+		<serves>4</serves>
+		<ingredient>
+				<li>2 tablespoons vegetable oil</li>
+				<li>1 cup finely chopped onion</li>
+				<li>2 ½ cups (10 ounces, about 1 medium) finely diced sweet potato</li>
+				<li>1 tablespoon minced ginger</li>
+				<li>2 garlic cloves, minced</li>
+				<li>1 Thai or bird's-eye red chili</li>
+				<li>1 cup red lentils</li>
+				<li>2 teaspoons ground coriander</li>
+				<li>2 teaspoons ground cumin</li>
+				<li>2 teaspoons turmeric</li>
+				<li>1 teaspoon ground ginger</li>
+				<li>1 cup canned chopped tomatoes</li>
+				<li>Salt</li>
+				<li>3 tablespoons chopped cilantro</li>
+				<li> Pieces of coconut flesh from a fresh coconut (optional)</li>
+		</ingredient>
+		<seasoning>
+			<li>Oil - 3tsp</li>
+   			<li>Mustard seeds -1tsp</li>
+   			<li>Urad dal (split ones) - 1tsp</li>
+   			<li>Channa dal/kadalai paruppu - 1tsp</li>
+   			<li>Red Chillies - 1</li>
+   			<li>Asafoetida - a pinch</li>
+   			<li>Green chillies - 2</li>
+   			<li>Finely chopped ginger - 1tsp</li>
+   			<li>Turmeric Powder - 1/4tsp</li>
+   			<li>Curry leaves - few</li>
+   			<li>Finely chopped carrot -2 tbsp (optional)</li>
+		</seasoning>
+		<description>
+			<li> In a large saucepan over medium-low heat, heat oil, and sauté onion until softened. Add sweet potato, and sauté for about 5 minutes. Add minced ginger and garlic; stir, and reduce heat to low.</li>
+			<li>Finely dice chili, keeping seeds if you wish to add more heat. Add chili, lentils, coriander, cumin, turmeric and ground ginger to pan. Stir until lentils are well coated with oil. Add tomatoes and 4 cups water. Raise heat to bring to a boil, then reduce heat until mixture is at a fast simmer. Cook uncovered until lentils and potatoes are soft, stirring occasionally, about 25 minutes.</li>
+			<li>Season to taste with salt, and continue to simmer until mixture has thickened, about 10 minutes. Whisk dal to amalgamate lentils and sweet potatoes. If dal is too soupy, increase heat and cook for a little longer.</li> 
+			<li>To serve, place dal in a serving bowl and sprinkle with chopped cilantro. If desired, shave thin strips of fresh coconut on top. Serve hot.</li>
+		</description>
+		<imgid>rec_image</imgid>
+		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
+</recipe>
+
+
+<recipe>
+		<title>Hyderabadi Biryani</title>
+		<type>North</type>
+		<preptime>1hr 10 mins</preptime>
+		<serves>2</serves>
+		<ingredient>
+				<li>1 kg meat</li>
+                <li>1 Tbsp salt</li>
+                <li>1 Tbsp ginger garlic paste, red chilli paste</li>
+                <li>1/2 Tbsp cardamom powder</li>
+                <li>3-4 sticks cinnamon</li>
+                <li>1 Tbsp cumin seeds, 4 cloves</li>
+                <li>2 Tbsp lemon juice</li>
+                <li>250 gm curd</li>
+                <li>4 Tbsp clarified butter</li>
+                <li>750 gm semi cooked rice</li>
+                <li>1/2 cup water, 1/2 cup oil</li>
+		</ingredient>
+		<seasoning>
+				<li>Oil - 2 tbsp</li>
+   				<li>Ghee - 1 tbsp </li>
+   				<li>Cloves - 4-5</li>
+   				<li>Cinnamon - 2 (1 inch piece)</li> 
+   				<li>Cardamom - 2</li>
+   				<li>Bay leaf -1 </li>
+   				<li>Stone flower- 1-2 (optional)</li>
+   				<li>Fennel seeds (sombu) or Shahjeera - 1 tsp</li>
+	    </seasoning>
+		<description>
+			<li>Clean the meat. Then in a pan add meat, salt, ginger garlic paste, red chilli powder, green chilli paste, sauteed brown onions, cardamom powder, cinnamon, cumin seeds, cloves, mace, mint leaves and lemon juice. Mix it well.</li>
+			<li>Add curd, clarified butter, semi cooked rice, saffron, water and oil and mix it well.</li>
+			<li>Now apply sticky dough on the sides of the pan.</li> 
+			<li>Cover with lid to seal it and cook for about 25 minutes.</li>
+			<li>Hyderabadi Biryani is ready to eat. Garnish it with boiled eggs, sliced carrots, cucumbers and serve hot.</li> 
+		</description>
+		<imgid>rec_image</imgid>
+		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
+</recipe>
+
+<recipe>
+		<title>Chana masala</title>
+		<type>North</type>
+		<preptime>50 mins</preptime>
+		<serves>4</serves>
+		<ingredient>
+				<li>1 tablespoon olive oil</li>
+                <li>1 large onion, chopped</li>
+                <li>2 to 3 garlic cloves, minced</li>
+                <li>Two 15- to 16-ounce cans chickpeas, drained and rinsed</li>
+                <li>1 to 2 teaspoons garam masala or good-quality curry powder</li>
+                <li>1/2 teaspoon turmeric</li>
+                <li>2 teaspoons grated fresh or jarred ginger</li>
+                <li>2 large tomatoes, diced</li>
+                <li>1 tablespoon lemon juice</li>
+                <li>1/4 cup minced fresh cilantro, or to taste</li>
+                <li>Salt to taste</li>
+                <li>Hot cooked grain (rice, quinoa, or couscous), optional</li>
+		</ingredient>
+		<seasoning>
+				<li>Oil -1 tbsp</li>
+   				<li>Cumin Seeds/Jeera - 1 tsp</li>
+   				<li>Bay leaf - 1</li>
+		</seasoning>
+		<description>
+			<li> Heat the oil in a wide skillet. Add the onion and sauté until translucent. Add the garlic and continue to sauté until the onion is golden.</li>
+			<li>Add the chickpeas, garam masala, turmeric, ginger, tomatoes, lemon juice, and about 1/4 cup water. Bring to a simmer, then cook over medium-low heat for 10 minutes, stirring frequently. This should be moist and stewlike, but not soupy; add a little more water, if needed</li>
+			<li>Stir in the cilantro and season with salt. Serve on its own in shallow bowls or over a hot cooked grain, if desired..</li> 
+		</description>
+		<imgid>rec_image</imgid>
+		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
+</recipe>
+
+
+
+</cookbook>
