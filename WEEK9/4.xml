@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="4.xsl"?>
+
+<historical_places> 
+
+	<place> 
+		<name language="english">Taj Mahal</name> 
+		<location>Agra</location> 
+		<country>India</country> 
+		<architecture>Indo Islamic</architecture>
+		<history> 
+			<dynasty>Mugal Empire</dynasty> 
+			<king>Shah Jahan</king>
+			<period era="AC">1632 – 1643</period>
+		</history> 
+		<description>Shah Jahan began planning the design and construction of a suitable mausoleum and funerary garden in Agra for his wife - Mumtaz, a task that would take more than 22 years to complete, the Taj Mahal. Symbol of love.</description>
+		<imageurl>https://www.holidify.com/blog/wp-content/uploads/2015/02/album_pic20.jpg</imageurl> 
+		<reference>https://www.tajmahal.gov.in/</reference> 
+	</place> 
+
+	<place> 
+		<name language="english">Red Fort</name> 
+		<location>Delhi</location> 
+		<country>India</country> 
+		<architecture>Indo Islamic</architecture>
+		<history> 
+			<dynasty>Mugal Empire</dynasty> 
+			<king>Shah Jahan</king>
+			<period era="AC">1638 - 1648</period>
+		</history> 
+		<description>The fort lies along the Yamuna River, which fed the moats surrounding most of the walls.[11] Construction began in the sacred month of Muharram, on 13 May 1638. Supervised by Shah Jahan, it was completed on 6 April 1648. Unlike other Mughal forts, the Red Fort's boundary walls are asymmetrical to contain the older Salimgarh Fort. The fortress-palace was a focal point of the medieval city of Shahjahanabad, which is present-day Old Delhi.</description> 
+		<imageurl>http://4.bp.blogspot.com/-aJuTzQ3gQwc/UatOurmLw5I/AAAAAAAAAOs/LKrBOPmHrDg/s1600/lal-quila.jpg</imageurl>
+		<reference>http://asi.nic.in/asi_monu_tktd_delhi_redfort.asp</reference>
+	</place> 
+
+</historical_places>
