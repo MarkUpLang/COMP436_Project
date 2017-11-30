@@ -1,6 +1,6 @@
 
 .view-overlay {
-   	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://mediaindia.eu/wp-content/uploads/2017/06/spices-export-record-india.jpg");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://mediaindia.eu/wp-content/uploads/2017/06/spices-export-record-india.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -11,11 +11,11 @@ html, body, .view-overlay{
 }
 
 a, .content{
-	color: #fff;
+    color: #fff;
 }
 
 .content{
-	position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -24,3 +24,44 @@ a, .content{
 .text-center {
     text-align: center;
 }
+
+.thumbnail {
+     border: 1px solid #ffffff;
+}
+
+.img-circle {
+    border-radius: 0;
+}
+
+.ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.page {
+  display: none;
+}
+.page-active {
+  display: block;
+}
+
+.thumbnail{
+    border:none;
+    background-color: #000;
+
+}
+
