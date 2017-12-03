@@ -10,9 +10,9 @@ html, body, .view-overlay{
     height: 100%;
 }
 
-a, .content{
+/*a, .content{
     color: #fff;
-}
+}*/
 
 .content{
     position: absolute;
@@ -25,9 +25,6 @@ a, .content{
     text-align: center;
 }
 
-.thumbnail {
-     border: 1px solid #ffffff;
-}
 
 .img-circle {
     border-radius: 0;
@@ -61,7 +58,31 @@ a, .content{
 
 .thumbnail{
     border:none;
-    background-color: #000;
+}
 
+
+.modal{
+    padding: 97px 10px 10px 10px;
+  /* position: none !important;*/
+
+}
+
+.modal-body{
+    text-align: left;
+     max-height: calc(100vh - 300px);
+    overflow-y: auto;
+}
+
+/*.after_modal_appended
+{  
+  position:relative;
+}*/
+
+/*.modal, .modal-backdrop {
+    position: absolute !important;
+}*/
+
+li{
+    color:#000 !important;
 }
 

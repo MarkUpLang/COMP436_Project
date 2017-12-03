@@ -3,13 +3,24 @@
 <xsl:param name="size" select="8"/>
 
 <xsl:template match="cookbook">
-      <xsl:for-each select="recipe">
+      <xsl:for-each select="recipe[type='South'][position() mod $size = 1]">
          <xsl:if test="type='South'">
-           <div class="item  col-xs-3 col-lg-3">
+            <div id="page{position()}" class="page">
+                <xsl:apply-templates select="self::*|following-sibling::*[position() &lt; $size]"/>
+         </div>
+     </xsl:if>
+      </xsl:for-each>
+</xsl:template>
+
+
+ 
+<xsl:template match="recipe[type='South']"> 
+<!--      <xsl:if test="type='South'">
+ -->   <div class="item  col-xs-3 col-lg-3">
             <div class="thumbnail" style="border:none;">
-                <a  href="#Recipes" data-toggle="modal">
-                    <xsl:attribute name="data-target">
-                        <xsl:value-of select="concat('#myModal',generate-id())"/>
+                <a id="modalOpen" href="#Recipes" class="singleRecepSouth">
+                    <xsl:attribute name="data-id">
+                        <xsl:value-of select="concat('myModal',generate-id())"/>
                     </xsl:attribute>
                     <img class="img-circle" alt="" >
                         <xsl:attribute name="src">
@@ -24,7 +35,6 @@
                 </div>
             </div>
     </div>
-
 
      <div class="modal fade" role="dialog">
             <xsl:attribute name="id">
@@ -62,8 +72,6 @@
                 </div>
             </div>
         </div>
-     </xsl:if>
-      </xsl:for-each>
-</xsl:template>
-
+<!-- </xsl:if>
+ --></xsl:template>
 </xsl:stylesheet>

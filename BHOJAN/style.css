@@ -34,3 +34,28 @@ a, .content{
 .page-active {
   display: block;
 }
+
+
+.modal{
+    padding: 97px 10px 10px 10px;
+
+}
+
+.modal-body{
+    text-align: left;
+     max-height: calc(100vh - 300px);
+    overflow-y: auto;
+}
+
+.after_modal_appended
+{  
+  position:relative;
+}
+
+.modal, .modal-backdrop {
+    /*position: absolute !important;*/
+}
+
+li{
+    color:#000 !important;
+}

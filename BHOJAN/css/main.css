@@ -308,7 +308,7 @@ DESCRIPTION BODY CONTENT
     width: 100%;
     background: #fff;
     margin: 0 auto 0 auto;
-    z-index: 99;
+   /* z-index: 99;*/
     position: relative;
     background: white;
     text-align: center; 

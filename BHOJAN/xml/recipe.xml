@@ -36,6 +36,7 @@
 			<li>Add the seasoning and cashew nuts also to the rice and mix well. Taste and see. If required add more salt and lemon juice.</li>
 			<li>Serve with papads or chips or roasted potatoes.</li> 
 		</description>
+		<taste>Hot</taste>
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno>page1</pageno>
@@ -67,6 +68,7 @@
 			<li>Vermicelli kheer is ready to be served. It can be served hot or chilled according to individual preferences.</li>
 			<li>As it cools the kheer will become thick. You can add hot or cold milk to adjust the consistency of the kheer before serving.</li> 
 		</description>
+		<taste>Sweet</taste>
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno></pageno>
@@ -101,6 +103,7 @@
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno></pageno>
+		<taste>Hot</taste>
 	</recipe>
 
 
@@ -139,6 +142,7 @@
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno></pageno>
+		<taste>Hot</taste>
 	</recipe>
 
 <recipe>
@@ -170,6 +174,7 @@
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno></pageno>
+		<taste>Sweet</taste>
 	</recipe>
 
 	<recipe>
@@ -216,6 +221,7 @@
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno></pageno>
+		<taste>Tangy</taste>
 </recipe>
 
 
@@ -257,6 +263,7 @@
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno></pageno>
+		<taste>Sweet</taste>
 </recipe>
 
 <recipe>
@@ -291,6 +298,7 @@
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno></pageno>
+		<taste>Sweet</taste>
 </recipe>
 
 <recipe>
@@ -331,6 +339,7 @@
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno>page2</pageno>
+		<taste>Hot</taste>
 	</recipe>
 
 	<recipe>
@@ -362,6 +371,7 @@
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 				<pageno></pageno>
+				<taste>Tangy</taste>
 
 	</recipe>
 
@@ -394,6 +404,7 @@
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 				<pageno></pageno>
+				<taste>Tangy</taste>
 
 	</recipe>
 
@@ -433,24 +444,13 @@
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 				<pageno></pageno>
+				<taste>Sweet</taste>
 
 	</recipe>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 	<recipe>
-		<title>Lemon Rice</title>
+		<title>13</title>
 		<type>South</type>
 		<preptime>25 mins</preptime>
 		<serves>2</serves>
@@ -487,10 +487,11 @@
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno>page1</pageno>
+		<taste>Hot</taste>
 	</recipe>
 
 	<recipe>
-		<title>Semiya Payasam</title>
+		<title>14</title>
 		<type>South</type>
 		<preptime>45mins</preptime>
 		<serves>4</serves>
@@ -516,12 +517,13 @@
 			<li>As it cools the kheer will become thick. You can add hot or cold milk to adjust the consistency of the kheer before serving.</li> 
 		</description>
 		<imgid>rec_image</imgid>
-		<imageurl>http://i.ndtvimg.com/i/2015-05/payasam-sevai-625_625x350_71431150303.jpg</imageurl>
+		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno>page1</pageno>
+		<taste>Tangy</taste>
 	</recipe>
 
 	<recipe>
-		<title>Chicken Tikka Masala</title>
+		<title>15</title>
 		<type>South</type>
 		<preptime>35mins</preptime>
 		<serves>4</serves>
@@ -547,13 +549,14 @@
 			<li>Melt butter in a large heavy skillet over medium heat. Saute garlic and jalapeno for 1 minute. Season with 2 teaspoons cumin, paprika, and 3 teaspoons salt. Stir in tomato sauce and cream. Simmer on low heat until sauce thickens, about 20 minutes. Add grilled chicken, and simmer for 10 minutes. Transfer to a serving platter, and garnish with fresh cilantro.</li>
 		</description>
 		<imgid>rec_image</imgid>
-		<imageurl>http://www.simplyrecipes.com/wp-content/uploads/2017/02/2017-02-27-ChickenTikkaMasala-18.jpg</imageurl>
+		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno>page1</pageno>
+		<taste>Hot</taste>
 	</recipe>
 
 
 	<recipe>
-		<title>Pav Bhaji</title>
+		<title>16</title>
 		<type>South</type>
 		<preptime>45 mins</preptime>
 		<serves>2</serves>
@@ -585,12 +588,13 @@
 			<li>Add lemon juice and serve with toasted buns or other bread.</li> 
 		</description>
 		<imgid>rec_image</imgid>
-		<imageurl>https://indianhealthyrecipes.com/wp-content/uploads/2017/03/pav-bhaji.jpg</imageurl>
+		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno>page1</pageno>
+		<taste>Sweet</taste>
 	</recipe>
 
 <recipe>
-		<title>Naan</title>
+		<title>17</title>
 		<type>South</type>
 		<preptime>55 mins</preptime>
 		<serves>2</serves>
@@ -616,12 +620,13 @@
 			<li> Brush uncooked side with butter, and turn over. Brush cooked side with butter, and cook until browned, another 2 to 4 minutes. Remove from grill, and continue the process until all the naan has been prepared.</li>
 		</description>
 		<imgid>rec_image</imgid>
-		<imageurl>http://rasamalaysia.com/wp-content/uploads/2011/02/naan3.jpg</imageurl>
+		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno>page1</pageno>
+		<taste>Sweet</taste>
 	</recipe>
 
 	<recipe>
-		<title>Dhaal Tadka</title>
+		<title>18</title>
 		<type>South</type>
 		<preptime>35 mins</preptime>
 		<serves>4</serves>
@@ -664,6 +669,7 @@
 		<imgid>rec_image</imgid>
 		<imageurl>http://www.vegrecipesofindia.com/wp-content/uploads/2013/08/lemon-rice-recipe-4.jpg</imageurl>
 		<pageno>page1</pageno>
+		<taste>Sweet</taste>
 </recipe>
 
 

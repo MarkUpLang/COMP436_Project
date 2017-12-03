@@ -2,19 +2,15 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:param name="size" select="8"/>
 
-
 <xsl:template match="cookbook">
-      <xsl:for-each select="recipe[type='North'][position() mod $size = 1]">
-         <div id="page{position()}" class="page">
-            <xsl:apply-templates select="self::*|following-sibling::*[position() &lt; $size]"/>
-         </div>
-      </xsl:for-each>
-</xsl:template>
-
-<xsl:template match="recipe[type='North']">
-    <div class="item  col-xs-3 col-lg-3">
+      <xsl:for-each select="recipe">
+         <xsl:if test="type='North'">
+           <div class="item  col-xs-3 col-lg-3">
             <div class="thumbnail" style="border:none;">
-                <a href="#" data-toggle="modal" data-target="#myModal">
+                <a  href="#Recipes" data-toggle="modal">
+                    <xsl:attribute name="data-target">
+                        <xsl:value-of select="concat('#myModal',generate-id())"/>
+                    </xsl:attribute>
                     <img class="img-circle" alt="" >
                         <xsl:attribute name="src">
                             <xsl:value-of select="imageurl" />
@@ -27,29 +23,47 @@
                     </h4>
                 </div>
             </div>
-        </div>
+    </div>
 
-        <!-- <div class="modal fade" id="myModal" role="dialog">
+
+     <div class="modal fade" role="dialog">
+            <xsl:attribute name="id">
+                <xsl:value-of select="concat('myModal',generate-id())"/>
+            </xsl:attribute>
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Modal Header</h4>
+                        <button type="button" class="close" data-dismiss="modal">&#120;</button>
+                        <h3 class="modal-title"><xsl:value-of select="title"/></h3>
                     </div>
 
                     <div class="modal-body">
-                            jhgjgjkj
-                    </div>
-            
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <p><span><b>Preparation Time: </b> <xsl:value-of select="preptime"/></span></p>
+                        <p><b>Ingredients:</b>
+                            <ul>
+                                <xsl:for-each select="seasoning/li">
+                                    <li>
+                                        <xsl:value-of select="."/>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+                        </p>
+                        <p><b>Steps:</b>
+                            <ol type="1">
+                                <xsl:for-each select="description/li">
+                                    <li>
+                                        <xsl:value-of select="."/>
+                                    </li>
+                                </xsl:for-each>
+                            </ol>
+                        </p>
+                        <p><b>Reference: </b><xsl:value-of select="reference"/></p>
                     </div>
                 </div>
             </div>
-        </div> -->
-
-  </xsl:template>
-
-
+        </div>
+     </xsl:if>
+      </xsl:for-each>
+</xsl:template>
 
 </xsl:stylesheet>

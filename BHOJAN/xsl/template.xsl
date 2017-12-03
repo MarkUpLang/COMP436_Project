@@ -3,13 +3,19 @@
 <xsl:param name="size" select="8"/>
 
 <xsl:template match="cookbook">
-      <xsl:for-each select="recipe">
-         <xsl:if test="type='South'">
-           <div class="item  col-xs-3 col-lg-3">
+      <xsl:for-each select="recipe[type='North'][position() mod $size = 1]">
+         <div id="page{position()}" class="page">
+            <xsl:apply-templates select="self::*|following-sibling::*[position() &lt; $size]"/>
+         </div>
+      </xsl:for-each>
+</xsl:template>
+
+<xsl:template match="recipe[type='North']">
+    <div class="item  col-xs-3 col-lg-3">
             <div class="thumbnail" style="border:none;">
-                <a  href="#Recipes" data-toggle="modal">
-                    <xsl:attribute name="data-target">
-                        <xsl:value-of select="concat('#myModal',generate-id())"/>
+                <a id="modalOpen" href="#Recipes" class="singleRecep">
+                    <xsl:attribute name="data-id">
+                        <xsl:value-of select="concat('myModal',generate-id())"/>
                     </xsl:attribute>
                     <img class="img-circle" alt="" >
                         <xsl:attribute name="src">
@@ -25,8 +31,7 @@
             </div>
     </div>
 
-
-     <div class="modal fade" role="dialog">
+        <div class="modal fade" role="dialog">
             <xsl:attribute name="id">
                 <xsl:value-of select="concat('myModal',generate-id())"/>
             </xsl:attribute>
@@ -58,12 +63,27 @@
                             </ol>
                         </p>
                         <p><b>Reference: </b><xsl:value-of select="reference"/></p>
+                        <p>
+                           <!--  <xsl:element name="iframe">
+        <xsl:attribute name="width">420</xsl:attribute>
+        <xsl:attribute name="height">315</xsl:attribute>
+        <xsl:attribute name="src"><xsl:value-of select="videourl" /></xsl:attribute>
+        <xsl:comment/> --><!-- avoid empty tag value that breaks the html-->
+<!--     </xsl:element>
+ -->                            <!-- <iframe width="420" height="315">
+                                 <xsl:attribute name="src">
+                                    <xsl:value-of select="videourl" />
+                                </xsl:attribute>
+                             </iframe> -->
+                        </p>
                     </div>
+            
+                   <!--  <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div> -->
+                   
                 </div>
             </div>
         </div>
-     </xsl:if>
-      </xsl:for-each>
-</xsl:template>
-
+  </xsl:template>
 </xsl:stylesheet>

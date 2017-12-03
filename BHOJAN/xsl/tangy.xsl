@@ -4,10 +4,10 @@
 
 <xsl:template match="cookbook">
       <xsl:for-each select="recipe">
-         <xsl:if test="type='South'">
+         <xsl:if test="taste='Tangy'">
            <div class="item  col-xs-3 col-lg-3">
             <div class="thumbnail" style="border:none;">
-                <a  href="#Recipes" data-toggle="modal">
+               <a  href="#Recipes" data-toggle="modal">
                     <xsl:attribute name="data-target">
                         <xsl:value-of select="concat('#myModal',generate-id())"/>
                     </xsl:attribute>
@@ -24,7 +24,6 @@
                 </div>
             </div>
     </div>
-
 
      <div class="modal fade" role="dialog">
             <xsl:attribute name="id">
@@ -62,8 +61,44 @@
                 </div>
             </div>
         </div>
+
+     </xsl:if>
+      </xsl:for-each>
+    </xsl:template>
+
+<!-- <xsl:template match="cookbook">
+      <xsl:for-each select="recipe">
+         <xsl:if test="taste='Tangy'">
+            <div id="page{position()}" class="page">
+                <xsl:apply-templates select="self::*|following-sibling::*[position() &lt; $size]"/>
+         </div>
      </xsl:if>
       </xsl:for-each>
 </xsl:template>
 
-</xsl:stylesheet>
+
+ 
+<xsl:template match="recipe"> 
+     <xsl:if test="taste='Tangy'">
+   <div class="item  col-xs-3 col-lg-3">
+            <div class="thumbnail" style="border:none;">
+                <a id="modalOpen" href="#Recipes" class="singleRecep">
+                    <xsl:attribute name="data-id">
+                        <xsl:value-of select="concat('myModal',generate-id())"/>
+                    </xsl:attribute>
+                    <img class="img-circle" alt="" >
+                        <xsl:attribute name="src">
+                            <xsl:value-of select="imageurl" />
+                        </xsl:attribute>
+                    </img>
+                </a>
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        <xsl:value-of select="title"/>
+                    </h4>
+                </div>
+            </div>
+    </div>
+</xsl:if> -->
+<!-- </xsl:template>
+ --></xsl:stylesheet>

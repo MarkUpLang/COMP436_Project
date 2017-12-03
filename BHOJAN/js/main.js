@@ -1,12 +1,13 @@
 $(document).ready(function () {
     $(document).on("scroll", onScroll);
+    displayResult('north');
     
     //smoothscroll
-    $('a[href^="#"]').on('click', function (e) {
+    $('.navbar-collapse ul li a').on('click', function (e) {
         e.preventDefault();
         $(document).off("scroll");
         
-        $('a').each(function () {
+        $('.navbar-collapse ul li a').each(function () {
             $(this).removeClass('navactive');
         })
         $(this).addClass('navactive');
@@ -24,8 +25,7 @@ $(document).ready(function () {
 
     
     $('#pagination-demo').twbsPagination({
-
-        totalPages: 5,
+        totalPages: 20,
         // the current page that show on start
         startPage: 1,
 
@@ -52,8 +52,11 @@ $(document).ready(function () {
         // callback function
         onPageClick: function (event, page) {
 
+            var activeTab = $(".tab-content").find(".active");
+            var id = activeTab.attr('id');
+            alert(id);
             $('.page-active').removeClass('page-active');
-            $('#page'+page).addClass('page-active');
+            $('#'+ id +' #page'+page).addClass('page-active');
         },
 
         // pagination Classes
@@ -70,8 +73,32 @@ $(document).ready(function () {
 
     //on document ready
     // add first dist display block
-    displayResult('north');
-    $('#page1').addClass('page-active');
+    
+
+
+    // //display Modal
+    // $('.singleRecep').each(function(index, ele) {
+    //     $(ele).click(function() {
+    //         alert("show");
+    //         var modalId = $(this).data('id');
+
+    //         $("#"+modalId).modal("show");
+        
+    //         $("#Recipes").addClass("after_modal_appended");
+    
+    //         //appending modal background inside the blue div
+    //         $('.modal-backdrop').appendTo('#Recipes');   
+    
+    //         //remove the padding right and modal-open class from the body tag which bootstrap adds when a modal is shown
+    //         $('body').removeClass("modal-open")
+    //         // $('body').css("padding-right","");
+    //     })
+    // });
+
+    // // //Remove text content
+    // $("#page2").contents().filter(function () {
+    //     return this.nodeType === 3; 
+    // }).remove();
 
 
 });
@@ -110,12 +137,21 @@ function onScroll(event){
            var locationList = {
                   north: 'xsl/north.xsl',
                   south: 'xsl/south.xsl',
+                  hot: 'xsl/hot.xsl',
+                  sweet: 'xsl/sweet.xsl',
+                  tangy: 'xsl/tangy.xsl',
            }
 
             if(location=='north'){
                 id = "tab-north";
             }else if(location=='south') {
                 id = "tab-south";
+            }else if(location=='hot') {
+                id = "hot";
+            }else if(location=='sweet') {
+                id = "sweet";
+            }else if(location=='tangy') {
+                id = "tangy";
             }
 
          xsl = loadXMLDoc(locationList[location]);
@@ -135,17 +171,8 @@ function onScroll(event){
         xsltProcessor.importStylesheet(xsl);
         resultDocument = xsltProcessor.transformToFragment(xml, document);
         document.getElementById(id).appendChild(resultDocument);
+        $('#'+ id +' #page1').addClass('page-active');
     }
     // alert("hgghhhjhj");
-    removeText(id);
+    // removeText(id);
   }     
-
-
-  function removeText(id){
-    var idVal ='';
-    if(idVal=="tab-north"){
-        $('#' + id + ' .item')[11].nextSibling.nodeValue = '';
-    }else{
-        $('#' + id + ' .item')[11].nextSibling.nodeValue = '';
-    }
-  }
