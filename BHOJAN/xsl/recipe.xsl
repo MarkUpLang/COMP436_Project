@@ -75,8 +75,9 @@
                         <p><b>Reference: </b>
                             <a>
                                 <xsl:attribute name="href">
-                                     <xsl:value-of select="source"/>
+                                    <xsl:value-of select="source"/>
                                 </xsl:attribute>
+                                <xsl:value-of select="source"/>
                             </a>
                         </p>
                         <p>
