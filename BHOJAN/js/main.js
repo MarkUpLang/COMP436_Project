@@ -54,7 +54,7 @@ $(document).ready(function () {
 
             var activeTab = $(".tab-content").find(".active");
             var id = activeTab.attr('id');
-            alert(id);
+            // alert(id);
             $('.page-active').removeClass('page-active');
             $('#'+ id +' #page'+page).addClass('page-active');
         },
@@ -70,36 +70,6 @@ $(document).ready(function () {
         disabledClass: 'disabled'
 
     });
-
-    //on document ready
-    // add first dist display block
-    
-
-
-    // //display Modal
-    // $('.singleRecep').each(function(index, ele) {
-    //     $(ele).click(function() {
-    //         alert("show");
-    //         var modalId = $(this).data('id');
-
-    //         $("#"+modalId).modal("show");
-        
-    //         $("#Recipes").addClass("after_modal_appended");
-    
-    //         //appending modal background inside the blue div
-    //         $('.modal-backdrop').appendTo('#Recipes');   
-    
-    //         //remove the padding right and modal-open class from the body tag which bootstrap adds when a modal is shown
-    //         $('body').removeClass("modal-open")
-    //         // $('body').css("padding-right","");
-    //     })
-    // });
-
-    // // //Remove text content
-    // $("#page2").contents().filter(function () {
-    //     return this.nodeType === 3; 
-    // }).remove();
-
 
 });
 
@@ -117,7 +87,6 @@ function onScroll(event){
     });
 }
 
-
     //Load XML and XSLT
     function loadXMLDoc(filename){
         if (window.ActiveXObject){
@@ -133,46 +102,56 @@ function onScroll(event){
 
     function displayResult(location){
            var xml = loadXMLDoc("xml/recipe.xml");
-           var id = "";
+           var id = location;
+
+           var value = location.charAt(0).toUpperCase() + location.slice(1);
+           // alert(value);
            var locationList = {
-                  north: 'xsl/north.xsl',
-                  south: 'xsl/south.xsl',
-                  hot: 'xsl/hot.xsl',
-                  sweet: 'xsl/sweet.xsl',
-                  tangy: 'xsl/tangy.xsl',
+                  north: 'xsl/recipe.xsl',
+                  south: 'xsl/recipe.xsl',
+                  mild: 'xsl/taste.xsl',
+                  sweet: 'xsl/taste.xsl',
+                  medium: 'xsl/taste.xsl',
+                  spicy: 'xsl/taste.xsl',
+                  dairy: 'xsl/allergy.xsl',
+                  gluten: 'xsl/allergy.xsl',
+                  nuts: 'xsl/allergy.xsl',
+                  fifteen: 'xsl/duration.xsl',
+                  twenty: 'xsl/duration.xsl'
            }
-
-            if(location=='north'){
-                id = "tab-north";
-            }else if(location=='south') {
-                id = "tab-south";
-            }else if(location=='hot') {
-                id = "hot";
-            }else if(location=='sweet') {
-                id = "sweet";
-            }else if(location=='tangy') {
-                id = "tangy";
-            }
-
+            
          xsl = loadXMLDoc(locationList[location]);
          document.getElementById(id).innerHTML = " ";
 
       // code for IE
     if (window.ActiveXObject || xhttp.responseType == "msxml-document"){
-        alert(id);
+        // alert(id);
           ex = xml.transformNode(xsl);
           document.getElementById(id).innerHTML = ex;
     }
 
     // code for Chrome, Firefox, Opera, etc.
     else if (document.implementation && document.implementation.createDocument){
-        alert(id);
         xsltProcessor = new XSLTProcessor();
         xsltProcessor.importStylesheet(xsl);
+        if(id=="north" || id=="south"){
+             xsltProcessor.setParameter(null, "cuisine", value);
+        }else if(id=='gluten' || id=='nuts' || id=='dairy'){
+             xsltProcessor.setParameter(null, "allergy", value);
+        }else if(id=='mild' || id=='sweet' || id=='spicy' || id=='medium'){
+             xsltProcessor.setParameter(null, "taste", value);
+        }else if(id=='fifteen'){
+             xsltProcessor.setParameter(null, "duration", '15');
+        }else if(id=='twenty'){
+             xsltProcessor.setParameter(null, "duration", '20');
+        }
+
         resultDocument = xsltProcessor.transformToFragment(xml, document);
         document.getElementById(id).appendChild(resultDocument);
         $('#'+ id +' #page1').addClass('page-active');
     }
-    // alert("hgghhhjhj");
-    // removeText(id);
+    
+
+
+
   }     

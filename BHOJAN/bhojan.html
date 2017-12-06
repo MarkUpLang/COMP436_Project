@@ -41,8 +41,8 @@
                     <ul class="nav navbar-nav main-nav  clear navbar-right ">
                         <li><a class="navactive color_animation" href="#top">Home</a></li>
                         <li><a class="color_animation" href="#story">About</a></li>
-                        <li><a class="color_animation" href="#Recipes" onclick="displayResult('north')">Recipes</a></li>
-                        <li><input type="text" class="form-control" placeholder="Search"></li>
+                        <li><a class="color_animation" href="#Recipes" onclick="displayResult('north')" >Recipes</a></li>
+                        <li><input id="search" type="text" class="form-control" placeholder="Search"></li>
                     </ul>
                 </div>
             </div>
@@ -64,9 +64,17 @@
                 <h1>About us</h1>
             </div>
             <div class="col-md-12 col-lg-12">
-                <p class="desc-text">
-                    Our bolg contains traditional Indian food recipes, like  East, West, North and South Indian Dishes.
+                <br>
+                <p class="desc-text" style="font-style: italic; font-weight: bold;">
+                    "What you eat today will influence the way you think, in turn influencing your future. Eat lovingly and you will be loved; eat mercilessly and the world will not be compassionate to you. " By Moni Singh
                 </p>
+                <p class="desc-text">
+                   The traditional food of India has been widely appreciated for its fabulous use of herbs and spices.Indian cuisine is known for its large assortment of dishes. Indian recipes are known for its complex aromatic flavors, which makes it a little bit tricky to try cooking it. 
+                </p>
+                <p class="desc-text">
+                    We have tried to simplify the recipes in terms of ingredients involved and the cooking procedure. We have made sure that the cooking time suits the fast-paced lifestyle, hence the recipes would be on the table within 30 mins. Information regarding the allergies can be found using the filter. 
+                </p>
+
             </div>
         </div>
     </section>
@@ -74,33 +82,60 @@
 
     <section id="Recipes" class="description_content">
         <div class="text-content container">
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <h1>Recipes</h1>
                 <div class="container">
                     <div class="panel with-nav-tabs panel-default">
                         <div class="panel-heading">
                             <ul class="nav nav-tabs">
-                                <li class="active"><a href="#tab-north" data-toggle="tab" onclick="displayResult('north')">North</a></li>
-                                <li><a href="#tab-south" data-toggle="tab" onclick="displayResult('south')">South</a></li>
+                                <li class="active"><a href="#north" data-toggle="tab" onclick="displayResult('north')">North</a></li>
+                                <li><a href="#south" data-toggle="tab" onclick="displayResult('south')">South</a></li>
                                 
                                 <li class="dropdown">
-                                    <a href="#" data-toggle="dropdown">Filters<span class="caret"></span></a>
+                                    <a href="#" data-toggle="dropdown">Taste<span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
-                                        <li><a href="#hot" data-toggle="tab" onclick="displayResult('hot')">Hot</a></li>
+                                        <li class="dropdown-header">Spicy Level</li>
+                                        <li><a href="#mild" data-toggle="tab" onclick="displayResult('mild')">Mild</a></li>
+                                        <li><a href="#medium" data-toggle="tab" onclick="displayResult('medium')">Medium</a></li>
+                                        <li><a href="#spicy" data-toggle="tab" onclick="displayResult('spicy')">Spicy</a></li>
+                                        <li class="divider"></li>
                                         <li><a href="#sweet" data-toggle="tab" onclick="displayResult('sweet')">Sweet</a></li>
-                                        <li><a href="#tangy" data-toggle="tab" onclick="displayResult('tangy')">Tangy</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown">Food Allergy<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#dairy" data-toggle="tab" onclick="displayResult('dairy')">Dairy</a></li>
+                                        <li><a href="#gluten" data-toggle="tab" onclick="displayResult('gluten')">Gluten</a></li>
+                                        <li><a href="#nuts" data-toggle="tab" onclick="displayResult('nuts')">Nuts</a></li>
+                                    </ul>
+                                </li>
+
+                                 <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown">Duration<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#fifteen" data-toggle="tab" onclick="displayResult('fifteen')">15</a></li>
+                                        <li><a href="#twenty" data-toggle="tab" onclick="displayResult('twenty')">20</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </div>
                         <div class="panel-body">
                             <div class="tab-content">
-                                <div class="tab-pane fade in active" id="tab-north"></div>
-                                <div class="tab-pane fade" id="tab-south"></div>
-                                <div class="tab-pane fade" id="hot"></div>
+                                <div class="tab-pane fade in active" id="north"></div>
+                                <div class="tab-pane fade" id="south"></div>
+                                <div class="tab-pane fade" id="medium"></div>
+                                <div class="tab-pane fade" id="mild"></div>
+                                <div class="tab-pane fade" id="spicy"></div>
                                 <div class="tab-pane fade" id="sweet"></div>
-                                <div class="tab-pane fade" id="tangy"></div>
-                              <!--  <ul id="pagination-demo" class="pagination-lg pull-left"></ul> -->
+                                <div class="tab-pane fade" id="dairy"></div>
+                                <div class="tab-pane fade" id="gluten"></div>
+                                <div class="tab-pane fade" id="nuts"></div>
+                                <div class="tab-pane fade" id="ten"></div>
+                                <div class="tab-pane fade" id="fifteen"></div>
+                                <div class="tab-pane fade" id="twenty"></div>
+                               <ul id="pagination-demo" class="pagination-lg pull-left"></ul>
                             </div>
                         </div>
                     </div>

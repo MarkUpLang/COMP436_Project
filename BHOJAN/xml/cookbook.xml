@@ -8,8 +8,10 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>25</totaltime>
 		<quantity>Serves 4 people</quantity>
-		<allergy>Contains Gluten</allergy>
-		<taste>Medium Spice</taste>
+		<allergy>
+			<type>Gluten</type>
+		</allergy>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>This is an easy stuffed bread served with curd and indian pickle.</description>
 		<ingredient>
 			<li>1 cup whole wheat flour </li>
@@ -25,8 +27,7 @@
 			<li> Grill it on a midium high heat, greace it with oil on both the sides and grill it for 1-2 mins and its ready to serve </li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/53109843.cms</imageurl>
-		<videourl>https://www.youtube.com/embed/iHHJkTnULS4</videourl>
-		<source>https://recipes.timesofindia.com</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -36,8 +37,10 @@
 		<cooktime>5 min</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<allergy>Contains Dairy</allergy>
-		<taste>Mild Spice</taste>
+		<allergy>
+			<type>Dairy</type>
+		</allergy>
+		<spicelevel type="Hot">Mild</spicelevel>
 		<description>This is an easy cooling side dish well accompanied with other spicy dishs.</description>
 		<ingredient>
 			<li>1 cup yogurt </li>
@@ -54,8 +57,7 @@
 			<li>Add the tempering to yogurt and its ready to serve </li>
 		</preparation>
 		<imageurl>https://2.bp.blogspot.com/-kL1YTKVX2WQ/V1nNohHtoOI/AAAAAAAAKJ4/EPz4VaJRnVgempC8vjK9KYHOp1N5hN5lACLcB/s1600/DSC_9267%2B2.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/8I_5EKF44x4</videourl>
-		<source>https://recipes.timesofindia.com</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -65,8 +67,10 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<allergy>Contains Dairy</allergy>
-		<taste>Spicy</taste>
+		<allergy>
+			<type>Dairy</type>
+		</allergy>
+		<spicelevel type="Hot">Spicy</spicelevel>
 		<description>This is an easy side dish well accompanied with rice or roti.</description>
 		<ingredient>
 			<li>1 large cauliflower </li>
@@ -85,8 +89,7 @@
 			<li>Cover the lid and let it cook for 10-15mins and its ready to serve </li>
 		</preparation>
 		<imageurl>https://asmallbite.com/wp-content/uploads/2017/09/Potato-Cauliflower-Fry-2.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/P4lvoKc__mc</videourl>
-		<source>https://recipes.timesofindia.com</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -97,8 +100,10 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>25</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<allergy>Contains Gluten</allergy>
-		<taste>Medium Spice</taste>
+		<allergy>
+			<type>Gluten</type>
+		</allergy>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>This paratha is a wholesome meal best served with Raita</description>
 		<ingredient>
 			<li>1 cup whole wheat flower</li>
@@ -114,8 +119,7 @@
 			<li>Grill it on a midium high heat, greace it with oil on both the sides and grill it for 1-2 mins and its ready to serve</li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/53335308.cms</imageurl>
-		<videourl>https://www.youtube.com/embed/sSqN1H3JH8w</videourl>
-		<source>http://www.manjulaskitchen.com</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -126,8 +130,10 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>30</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<allergy>Contains Dairy</allergy>
-		<taste>Medium Spice</taste>
+		<allergy>
+			<type>Dairy</type>
+		</allergy>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>This is an easy recipe for Chicken Tikka Masala--chicken marinated in yogurt and spices and then served in a tomato cream sauce. Serve with rice or warm naan bread.</description>
 		<ingredient>
 			<li>1 cup yogurt 1</li>
@@ -155,8 +161,7 @@
 			<li>Melt butter in a large heavy skillet over medium heat. Saute garlic and jalapeno for 1 minute. Season with 2 teaspoons cumin, paprika, and 3 teaspoons salt. Stir in tomato sauce and cream. Simmer on low heat until sauce thickens, about 20 minutes. Add grilled chicken, and simmer for 10 minutes. Transfer to a serving platter, and garnish with fresh cilantro.</li>
 		</preparation>
 		<imageurl>https://www.savorytooth.com/wp-content/uploads/2017/04/instant-pot-chicken-tikka-masala-1.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/QPCwH8uJawA</videourl>
-		<source>http://www.manjulaskitchen.com</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -166,8 +171,10 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>25</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<allergy>Contains Dairy</allergy>
-		<taste>Mild Spice</taste>
+		<allergy>
+			<type>Dairy</type>
+		</allergy>
+		<spicelevel type="Hot">Mild</spicelevel>
 		<description>This is an easyccooling side dish well accompanied with other spicy dishs.</description>
 		<ingredient>
 			<li>1 cup yogurt </li>
@@ -179,8 +186,7 @@
 			<li>In a large bowl, combine yogurt, grated cucumber, mint leaves and salt, mix well and the raita is ready to serve </li>
 		</preparation>
 		<imageurl>http://aucdn.ar-cdn.com/recipes/port500/61e8a303-1546-4950-a1b7-96e761e27b3c.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/SFgg6BfX97Q</videourl>
-		<source>http://www.manjulaskitchen.com</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -190,7 +196,7 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<taste>Mild Spice</taste>
+		<spicelevel type="Hot"> Mild</spicelevel>
 		<description>This is an easy lentil soup well accompanied with steamed rice.</description>
 		<ingredient>
 			<li>1/2 cup daal </li>
@@ -205,19 +211,20 @@
 			<li>Add the tempering to boiled daal and its ready to serve </li>
 		</preparation>
 		<imageurl>http://www.bsixinn.com/wp-content/uploads/2015/09/DAL-FRY-CURRY.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/fThvzKqZcuI</videourl>
-		<source>http://www.manjulaskitchen.com</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
-		<title>Phodnicha Bhaat</title>
+		<title>Phodnicha Bhaat Rice</title>
 		<cuisine>North</cuisine>
 		<preptime>10 mins</preptime>
 		<cooktime>5 mins</cooktime>
 		<totaltime>15</totaltime>
 		<quantity>Will serve 2 people</quantity>
-		<allergy>Contains Nuts</allergy>
-		<taste>Medium Spice</taste>
+		<allergy>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>This is an easy twist to steamed rice.</description>
 		<ingredient>
 			<li>Boiled Rice</li>
@@ -235,8 +242,7 @@
 			<li>Add rice to the cumin seeds, mustard and chilli powder, add some salt.</li>           
 		</preparation>
 		<imageurl>https://data.thefeedfeed.com/recommended/post_368908.jpeg</imageurl>
-		<videourl>https://www.youtube.com/embed/yF7qXL5o2cM</videourl>
-		<source>http://www.manjulaskitchen.com</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -247,8 +253,12 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Mild Spice</taste>
+		<allergy> 
+			<type>Dairy</type>
+			<type>Gluten</type>
+			<type>Peanut</type>
+		</allergy>
+		<spicelevel type="Hot"> Mild</spicelevel>
 		<description>Jeera rice as in cumin rice is an easy twist to plain steamed rice to enahance its flavor profile.</description>
 		<ingredient>
 			<li>1 cup basmati rice </li>
@@ -263,8 +273,7 @@
 			<li>Add water and salt and cover the lid until rice is cooked completely and its ready to serve</li>
 		</preparation>
 		<imageurl>http://ukcdn.ar-cdn.com/recipes/port250/31dc6744-f0d9-47c1-943f-546d4fd8df4b.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/fQiJThYdWeo</videourl>
-		<source>http://www.manjulaskitchen.com</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -274,8 +283,10 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>30</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<allergy>Contains Dairy</allergy>
-		<taste>Spicy</taste>
+		<allergy>
+			<type>Dairy</type>
+		</allergy>
+		<spicelevel type="Hot">Spicy</spicelevel>
 		<description>Kadhai Paneer is a main dish served best with naan</description>
 		<ingredient>
 			<li>1 cup tomato suase</li>
@@ -296,8 +307,7 @@
 			<li>Add the cooked gravy and Paneer cubes and cook for 3-5 mins and its ready to serve</li>
 		</preparation>
 		<imageurl>http://www.11flowers.in/restaurant/wp-content/uploads/2017/07/kadai-paneer.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/hIm-tqfdal4</videourl>
-		<source>http://www.manjulaskitchen.com</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -307,8 +317,10 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>25</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<allergy>Contains Gluten</allergy>
-		<taste>Medium Spice</taste>
+		<allergy>
+			<type>Gluten</type>
+		</allergy>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>This paratha is a wholesome meal best served with Raita</description>
 		<ingredient>
 			<li>1 cup whole wheat flower</li>
@@ -324,8 +336,7 @@
 			<li>Grill it on a midium high heat, greace it with oil on both the sides and grill it for 1-2 mins and its ready to serve</li>
 		</preparation>
 		<imageurl>http://www.easycookingwithmolly.com/wp-content/uploads/2016/07/methi-paratha-easycookingwithmolly.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/vir7A88LYsU</videourl>
-		<source>http://www.manjulaskitchen.com</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -335,8 +346,10 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<allergy>Contains Dairy</allergy>
-		<taste>Spicy</taste>
+		<allergy>
+			<type>Dairy</type>
+		</allergy>
+		<spicelevel type="Hot">Spicy</spicelevel>
 		<description>Palak Paneer is a main dish served best with naan/ steamed rice</description>
 		<ingredient>
 			<li>1 cup blanched and pureed spinach</li>
@@ -352,8 +365,7 @@
 			<li>Add paneer cubes and cook for 2-3 mins and palak paneer is ready to serve </li>
 		</preparation>
 		<imageurl>https://omnivorescookbook.com/wp-content/uploads/2017/04/1704_Palak-Paneer-and-Cooking-In-India_550.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/b5bDtzWCR9M</videourl>
-		<source>http://www.manjulaskitchen.com</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -363,7 +375,9 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>30</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<allergy>Contains Dairy</allergy>
+		<allergy>
+			<type>Dairy</type>
+		</allergy>
 		<spicelevel>Medium</spicelevel>
 		<description>Paneer butter masala is a main dish served best with naan.</description>
 		<ingredient>
@@ -382,8 +396,7 @@
 			<li>Heat butter in a pan and add the cooked gravy and Paneer cubes, add cream and cook for 3-5 mins and its ready to serve</li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/53098531.cms</imageurl>
-		<videourl>https://www.youtube.com/embed/Nr9x7eTpXi8</videourl>
-		<source>http://www.manjulaskitchen.com</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -393,8 +406,10 @@
 		<cooktime>5 min</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will serve 2 people</quantity>
-		<allergy>Contains Dairy</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Dairy</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>This is an easy cooling side dish well accompanied with other spicy dishes</description>
 		<ingredient>
 			<li>1 cup yogurt </li>
@@ -406,8 +421,7 @@
 			<li>In a large bowl, combine yogurt, pineapple chunks, mint leaves and salt, mix well and the raita is ready to serve </li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/58840660.cms</imageurl>
-		<videourl>https://www.youtube.com/embed/lSrSupptby0</videourl>
-		<source>http://www.manjulaskitchen.com</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -417,7 +431,7 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<taste>Medium Spice</taste>
+		<spicelevel type="Hot">Spicy </spicelevel>
 		<description>This is an easy side dish well accompanied with rice or roti.</description>
 		<ingredient>
 			<li>2 large potatos </li>
@@ -435,8 +449,7 @@
 			<li>Cover the lid and let it cook for 10-15mins and its ready to serve </li>
 		</preparation>
 		<imageurl>http://www.spiceindiaonline.com/wp-content/uploads/2017/03/Aloo-fry-2.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/l8XppCJW6rU</videourl>
-		<source>http://www.manjulaskitchen.com/aloo-dum-potato-curry</source>		
+		<videourl>http://www.manjulaskitchen.com/aloo-dum-potato-curry</videourl>
 	</recipe>
 
 	<recipe>
@@ -446,8 +459,10 @@
 		<cooktime>5 min </cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will serve 2 people</quantity>
-		<allergy>Contains Dairy</allergy>
-		<taste>Mild Spice</taste>
+		<allergy>
+			<type>Dairy</type>
+		</allergy>
+		<spicelevel type="Hot"> Mild</spicelevel>
 		<description>This is an easy cooling side dish well accompanied with other spicy dishes.</description>
 		<ingredient>
 			<li>1 cup yogurt </li>
@@ -461,7 +476,7 @@
 			<li>Add the tempering to yogurt mixture and its ready to serve </li>
 		</preparation>
 		<imageurl>http://www.steamingpot.com/wp-content/uploads/2012/04/spinachraitacloseup.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/5_aU1tmQun4</videourl>
+		<videourl></videourl>
 		<source>http://sobha-goodfood.blogspot.com/2011/11/spinach-raita.html</source>
 	</recipe>
 
@@ -472,8 +487,8 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>25</totaltime>
 		<quantity>Will serve 2 people</quantity>
-		<taste>Medium Spice</taste>
-		<allergy>Contains Nuts, Dairy</allergy>
+		<spicelevel type="Hot">Medium</spicelevel>
+		<allergy>No gulten, Nuts and dairy</allergy>
 		<description>For people who are on a diet, this is the perfect food to carry for lunch.Sprouts are healthy and are also rich in proteins.</description>
 		<ingredient>
 				<li>Sprout Moong</li>
@@ -490,8 +505,7 @@
             <li>Mix well, cover and cook on a low flame for five minutes and it's ready.</li>              
 		</preparation>
 		<imageurl>https://saffrontrail.com/wp-content/uploads/2015/05/recipe-for-misal-masala-dosa.1024x1024.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/_DxvbWCUxfI</videourl>
-		<source>https://www.cookingandme.com/</source>		
+		<videourl></videourl>
 	</recipe>
 
  	<recipe>
@@ -501,8 +515,11 @@
 		<cooktime>15 mins</cooktime>
 		<totaltime>25</totaltime>
 		<quantity>Will serve 2 people</quantity>
-		<allergy>Gluten, Dairy</allergy>
-		<taste>Spicy</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Diary</type>
+		</allergy>
+		<spicelevel type="Hot">Spicy</spicelevel>
 		<description>A starter specially famous during rainy season.</description>
 		<ingredient>
 				<li>Methi Leaves</li>
@@ -526,8 +543,7 @@
 			<li>Deep fry till they turn golden.</li>                  
 		</preparation>
 		<imageurl>http://www.tasty-indian-recipes.com/wp-content/uploads/2014/08/Methi-Pakora420.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/GL4w2hwkxi4</videourl>
-		<source>https://www.cookingandme.com/</source>	
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -537,8 +553,10 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>25</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<allergy>Gluten</allergy>
-		<taste>Medium Spice</taste>
+		<allergy>
+			<type>Gluten</type>
+		</allergy>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>A one-pot meal with ideal combination of protein and carbohydrates.</description>
 		<ingredient>
 			<li>Rice 1-Cup</li>
@@ -565,8 +583,7 @@
 			<li>When Pulav is ready add garam masala mix gently.</li>                 
 		</preparation>
 		<imageurl>https://www.recipeshubs.com/thumbs/2382742-chickpea-pulao.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/eHzgeCPa6es</videourl>
-		<source>https://www.cookingandme.com/</source>		
+		<videourl></videourl>	
 	</recipe>
 
 	<recipe>
@@ -576,8 +593,8 @@
 		<cooktime>15 mins</cooktime>
 		<totaltime>25</totaltime>
 		<quantity>Will serve 2 people</quantity>
-		<allergy>Contains gluten</allergy>
-		<taste>Medium Spice</taste>
+		<allergy>contains gluten</allergy>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>A hardy and Savery indian breakfast dish</description>
 		<ingredient>
 				<li>Besan Flour</li>
@@ -597,8 +614,7 @@
 			<li>Fry till they turn brown.</li> 
 		</preparation>
 		<imageurl>https://www.ndtv.com/cooks/images/cheela-330.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/lxRR5-gpKz4</videourl>
-		<source>https://www.cookingandme.com/</source>	
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -608,7 +624,7 @@
 		<cooktime>10 mins</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will serve 2 people</quantity>
-		<taste>Medium Spice</taste>
+		<spicelevel type="Hot">medium-spicy</spicelevel>
 		<description>An indian twist to scrambled eggs, best served with bread or roti.</description>		
 		<ingredient>
 				<li>Eggs 4-5</li>
@@ -627,8 +643,7 @@
 			<li>Serve with Bread.</li>                  
 		</preparation>
 		<imageurl>https://i1.wp.com/www.relishthebite.com/wp-content/uploads/2015/02/EggBhurji-3.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/glUEnS8J84Q</videourl>
-		<source>https://www.cookingandme.com/</source>	
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -663,8 +678,7 @@
             <li>Boil the curry for 10 to 15 minutes until you see the eggs are coated well with the curry.</li> 
 		</preparation>
 		<imageurl>https://i.pinimg.com/originals/04/7e/a3/047ea3fb2bcc97b650ee05807f762212.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/20FJmrJ_XP</videourl>
-		<source>https://www.cookingandme.com/</source>	
+		<videourl></videourl>
 	</recipe>
 	
 
@@ -674,9 +688,9 @@
 		<preptime>10 mins</preptime>
 		<cooktime>15 mins</cooktime>
 		<totaltime>25</totaltime>
-		<quantity>Will serve 2 people</quantity>
-		<allergy>Contains Dairy</allergy>
-		<taste>Mild Spice</taste>
+		<quantity>for 2</quantity>
+		<allergy>Will serve 4 people</allergy>
+		<spicelevel type="Hot">Mild</spicelevel>
 		<description>sweet and sour Side Dish</description>
 		<ingredient>
 				<li>Yogurt</li>
@@ -689,8 +703,7 @@
 			<li>Add the pomegranate juice and the seeds to yogurt mix.</li>                  
 		</preparation>
 		<imageurl>http://2.bp.blogspot.com/_N2sGS2y6qHA/Sdx7X12IyJI/AAAAAAAABaY/JHJCpFkjAPA/s320/anardhana+raita.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/Ncbr5lcqtu4</videourl>
-		<source>https://www.cookingandme.com/</source>	
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -700,8 +713,11 @@
 		<cooktime>15 mins</cooktime>
 		<totaltime>25</totaltime>
 		<quantity>Will serve 2 people</quantity>
-		<allergy>Contains Gluten, Nuts</allergy>
-		<taste>Spicy</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Hot">Spicy</spicelevel>
 		<description>Spicy and crunchy snack good with tea.</description>
 		<ingredient>
 			<li>Potatoes</li>
@@ -720,8 +736,7 @@
 			<li>Heat oil in another kadhai and deep-fry the potato balls a few at a time till they are golden brown in colour.</li>                  
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/59160155.cms</imageurl>
-		<videourl>https://www.youtube.com/embed/6_eY1HRnX</videourl>
-		<source>https://www.cookingandme.com/</source>	
+		<videourl></videourl>	
 	</recipe>
 
 	<recipe>
@@ -731,8 +746,10 @@
 		<cooktime>5 mints</cooktime>
 		<totaltime>15</totaltime>
 		<quantity>Will serve 2 people</quantity>
-		<allergy>Contains Dairy</allergy>
-		<taste>Spicy</taste>
+		<allergy>
+			<type>Diary</type>
+		</allergy>
+		<spicelevel type="Hot">Spicy</spicelevel>
 		<description>This is a Main Dish well accompamied by naan</description>
 		<ingredient>
 			<li>Paneer 1 Cup</li>
@@ -755,8 +772,7 @@
 			<li>Later, add coriander and salt and bring to a boil.</li> 
 		</preparation>
 		<imageurl>http://www.notempire.com/images/uploads/AchariPaneer_250x250.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/NvMaYnHD</videourl>
-		<source>https://www.cookingandme.com/</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -767,8 +783,12 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>15</totaltime>
 		<quantity> Serve for 2 people </quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet"> Sweet </spicelevel>
 		<description>Vegan date nut balls</description>
 		<ingredient>
 			<li>12 medjool dates </li>
@@ -785,8 +805,7 @@
 			<li>When it's cool enough to handle, make ladoos of your desired size and roll in the desiccated coconut.</li>
 		</preparation>
 		<imageurl>http://d19a0b8e2bfk4y.cloudfront.net/admin/wp-content/uploads/2014/10/Date-and-Nut-Indian-sweets-Vegan-Veggiebuzz-Recipe.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/yKxl0gUw9Ws</videourl>
-		<source>https://www.cookingandme.com/</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -797,8 +816,12 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>30</totaltime>
 		<quantity>Will serve for 2 people</quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>Sandesh, an easy Bengali milk sweet using fresh chenna.</description>
 		<ingredient>
 			<li> 1 cup of chenna </li>
@@ -817,8 +840,7 @@
 			<li>When the mixture is warm, shape into small balls, and flatten lightly.  </li>
 		</preparation>
 		<imageurl>http://cdn3.foodviva.com/static-content/food-images/bengali-recipes/sandesh-sondesh/sandesh-sondesh.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/0PUPOPy0DWI</videourl>
-		<source>https://www.cookingandme.com/</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -829,8 +851,12 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will serve for 2 people </quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>Chocolate peda recipe with condensed milk and milk powder.</description>
 		<ingredient>
 			<li> 1 can (~400 gm) of condensed milk </li>
@@ -846,8 +872,7 @@
 			<li>And make flat round balls. </li>
 		</preparation>
 		<imageurl>https://photo.foodgawker.com/wp-content/uploads/2015/09/2395543.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/sqIAkQLcIBY</videourl>
-		<source>https://www.cookingandme.com/</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -857,8 +882,12 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>15</totaltime>
 		<quantity>Will serve for 3 people</quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>Cashew Barfi</description>
 		<ingredient>
 			<li>1-2 tbsp of milk</li>
@@ -874,8 +903,7 @@
 			<li>Using knife cut out the desired shape. </li>
 		</preparation>
 		<imageurl>https://www.giftjaipur.com/image/cache/catalog/products%20images/Kaju-barfi-kg-500x500.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/M6CwnxnxHKI</videourl>
-		<source>https://www.cookingandme.com/</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -886,8 +914,12 @@
 		<cooktime>20 min</cooktime>
 		<totaltime>30</totaltime>
 		<quantity>Will serve 4 people</quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>Besan Ladoo</description>
 		<ingredient>
 			<li> 3/4 cup ghee(unsalted butter)</li>
@@ -904,8 +936,7 @@
 			<li>When its warm enough to handle, shape into lime-sized balls. </li>
 		</preparation>
 		<imageurl>https://5.imimg.com/data5/KN/IN/MY-15688765/besan-laddu-500x500.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/qQ2kTu53BiI</videourl>
-		<source>https://www.cookingandme.com/</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -915,8 +946,12 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>15</totaltime>
 		<quantity>Will serve for 3 people</quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>Paneer Payasam</description>
 		<ingredient>
 			<li> 2 cups of milk </li>
@@ -933,8 +968,7 @@
 			<li>Now take out this mixture to bowls and on top of that add pistachios and saffron.</li>
 		</preparation>
 		<imageurl>http://sanaasrecipes.com/public_downloads/recipe_img/uploads_original/2015-07-11/PANEER-KHEER.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/HKqs6k5PaCo</videourl>
-		<source>https://www.cookingandme.com/</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -944,8 +978,12 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will seve for 2 people </quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>Indian apple pudding</description>
 		<ingredient>
 			<li> 1.5 cups of milk </li>
@@ -962,8 +1000,7 @@
 			<li>Mix well and turn off the flame. </li>
 		</preparation>
 		<imageurl>https://www.plattershare.com/common/uploaded_files/recipe/59f1ac401cd6e_pb.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/YvoMfk1Z17o</videourl>
-		<source>https://www.cookingandme.com/</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -974,8 +1011,12 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>15</totaltime>
 		<quantity>Will serve to 3-4 people</quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>It is a double layered kalakand sweet.</description>
 		<ingredient>
 			<li>1 cup of grated khoya </li>
@@ -990,8 +1031,6 @@
 			<li>And add chopped nuts for garnish.</li>
 		</preparation>
 		<imageurl>https://indianhealthyrecipes.com/wp-content/uploads/2014/10/chocolate-burfi.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/HVrOVOAMF5U</videourl>
-		<source>https://www.cookingandme.com/</source>
 	</recipe>
 
 	<recipe>
@@ -1001,7 +1040,7 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>15</totaltime>
 		<quantity>Serves 4 people</quantity>
-		<taste>Mild Spice</taste>
+		<spicelevel type="Hot">Mild</spicelevel>
 		<description>This is an easy side dish well accompanied with any rice/roti</description>
 		<ingredient>
 			<li>Mushroom – ½ lb</li>
@@ -1028,8 +1067,7 @@
 			<li>Mushroom chili fry or mushroom pepper fry is ready to serve. </li>
 		</preparation>
 		<imageurl>http://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Mush20162759_0.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/-CQ8rRy9was</videourl>
-		<source>https://simpleindianrecipes.com</source>
+		<videourl>https://www.youtube.com/watch?v=-CQ8rRy9was</videourl>
 	</recipe>
 
 
@@ -1040,7 +1078,7 @@
 		<cooktime>5 min</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Serve 4 people</quantity>
-		<taste>Spicy</taste>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>This is an easy breakfast dish.</description>
 		<ingredient>
 			<li>2 cups Besan</li>
@@ -1069,8 +1107,7 @@
 			<li>Serve hot with green chutney or sauce. it can be taken with toast also.</li>
 		</preparation>
 		<imageurl>http://betterbutterbucket.s3-website-ap-southeast-1.amazonaws.com/319x319/public/recipe_thumb/medium/14414668508XWle16jzP_thumb.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/lxRR5-gpKz4</videourl>
-		<source>https://simpleindianrecipes.com</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -1081,8 +1118,10 @@
 		<cooktime>20 min</cooktime>
 		<totaltime>30</totaltime>
 		<quantity>serves 4 people</quantity>
-		<allergy>Contains Gluten</allergy>
-		<taste>Medium Spice</taste>
+		<allergy>
+		  <type>Gluten</type>
+		</allergy>>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>This is an easy breakfast dish.</description>
 		<ingredient>
 			<li>Wheat flour-1.5 cup</li>
@@ -1104,8 +1143,7 @@
 			<li>Enjoy hot and healthy beetroot rotis.</li>
 		</preparation>
 		<imageurl>http://www.kannammacooks.com/wp-content/uploads/beetroot-chapati-recipe-300x300.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/28yYfhf91WE</videourl>
-		<source>https://simpleindianrecipes.com</source>
+		<videourl>https://www.youtube.com/watch?v=28yYfhf91WE</videourl>
 	</recipe>
 
 
@@ -1115,7 +1153,7 @@
 		<preptime>5 min</preptime>
 		<totaltime>15 min</totaltime>
 		<quantity>Serves 2 people</quantity>
-		<taste>Medium Spice</taste>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>This is an easy dish well accompanied with other spicy dishs.</description>
 		<ingredient>
 			<li>3 teaspoon black pepper</li>
@@ -1144,8 +1182,7 @@
 			<li>Serve hot with rice or the south indian parottas.</li>
 		</preparation>
 		<imageurl>http://betterbutterbucket.s3-website-ap-southeast-1.amazonaws.com/386x386/public/recipe_thumb/medium/1447931618QAOxVUWMWR_thumb.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/k_rBe51jbGc</videourl>
-		<source>https://www.kannammacooks.com</source>
+		<videourl></videourl>
 	</recipe>
 
 	
@@ -1159,8 +1196,12 @@
 		<cooktime>20 min</cooktime>
 		<totaltime>30</totaltime>
 		<quantity>Will serve for 3 people </quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>A delicious dessert recipe, Coconut and Rice Kheer is made using milk, jaggery, coconut and rice</description>
 		<ingredient>
 			<li>1/4 cup boiled milk </li>
@@ -1178,8 +1219,7 @@
 			<li>After 5 min add raisins, cashews, cardamom and saffron in mixture and mix well. </li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/57247748.cms?imgsize=333594</imageurl>
-		<videourl>https://www.youtube.com/embed/OHBLPH-DvHM</videourl>
-		<source>https://recipes.timesofindia.com/recipes</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -1190,8 +1230,12 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>25</totaltime>
 		<quantity>Will serve for 8 people</quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>Made with sugar and almond, this quick recipe is apt for snacks.</description>
 		<ingredient>
 			<li>400 gm of almonds</li>
@@ -1207,8 +1251,7 @@
 			<li>Take a charcoal, burn it on a fire and keep it on bowl, add some rosemary and smoke the almonds which are coated with sesame. </li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/53613283.cms?imgsize=155679</imageurl>
-		<videourl>https://www.youtube.com/embed/NOfCM5adUY4</videourl>
-		<source>https://recipes.timesofindia.com/recipes</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -1219,8 +1262,12 @@
 		<cooktime>20 min</cooktime>
 		<totaltime>30</totaltime>
 		<quantity>Will serve for 4 people</quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>A traditional South Indian dessert recipe, Peach Almond Suji Halwa.</description>
 		<ingredient>
 			<li> 1.5 cup of water</li>
@@ -1236,8 +1283,7 @@
 			<li>Now add suji and peach on a pan and mix well for 5 min. </li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/53723175.cms?imgsize=128227</imageurl>
-		<videourl>https://www.youtube.com/embed/IIczB1FvZp8</videourl>
-		<source>https://recipes.timesofindia.com/recipes</source>
+		<videourl></videourl>
 	</recipe>	
 
 	<recipe>
@@ -1247,8 +1293,12 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will serve for 8 people </quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>Prepared with grated coconut, sugar, milk and ghee.</description>
 		<ingredient>
 			<li> 6 tbsp milk </li>
@@ -1264,8 +1314,7 @@
 			<li>Post that, transfer the mixture into a dish. With the help of a ladle, spread the mixture evenly and keep the dish aside. When the mixture is set, cut it into square and serve.</li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/60017465.cms?imgsize=67250</imageurl>
-		<videourl>https://www.youtube.com/embed/GNeRndxxtmw</videourl>
-		<source>https://recipes.timesofindia.com/recipes</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -1276,8 +1325,12 @@
 		<cooktime>20 min</cooktime>
 		<totaltime>30</totaltime>
 		<quantity>Will serve for 4 people</quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>Badam Payasam is a traditional South Indian recipe made using milk, almonds and saffron</description>
 		<ingredient>
 			<li> 1 litre milk </li>
@@ -1295,8 +1348,7 @@
 			<li>Delicious Badam payasam is ready. Serve hot or cold.</li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/57206292.cms?imgsize=209699</imageurl>
-		<videourl>https://www.youtube.com/embed/YYai2V_wYkQ</videourl>
-		<source>https://recipes.timesofindia.com/recipes</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -1306,8 +1358,12 @@
 		<cooktime>20 min</cooktime>
 		<totaltime>30</totaltime>
 		<quantity>Will serve for 4 people</quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>A soft, delectable dessert, Raspberry Coconut Balls is a recipe that will provide you with instant energy</description>
 		<ingredient>
 			<li> 1 cup raspberries </li>
@@ -1323,8 +1379,7 @@
 			<li>Now, with clean hands carefully roll the prepared mixture into small balls.</li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/60220958.cms?imgsize=89573</imageurl>
-		<videourl>https://www.youtube.com/embed/MHTqYJQ8K0E</videourl>
-		<source>https://recipes.timesofindia.com/recipes</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -1334,8 +1389,12 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will serve for 4 people</quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>This fruity delicious Banana Sheera is one of the simple desserts which is healthy too</description>
 		<ingredient>
 			<li> 1 chopped banana </li>
@@ -1353,8 +1412,7 @@
 			<li>Serve hot or cold, as desired with chopped dry fruits.</li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/52701083.cms?imgsize=152394</imageurl>
-		<videourl>https://www.youtube.com/embed/wQFtrj8O7rs</videourl>
-		<source>https://recipes.timesofindia.com/recipes</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -1364,8 +1422,12 @@
 		<cooktime>20 min</cooktime>
 		<totaltime>30</totaltime>
 		<quantity> Will serve for 2 people </quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>Badam Laddoo is a very quick and easy-to-make dessert recipe which can be prepared on any festival or special occasion</description>
 		<ingredient>
 			<li> 50 gm jaggery </li>
@@ -1379,8 +1441,7 @@
 			<li>Add ghee, cardamom powder, raisins and almonds. Stir the ingredients well and remove from the flame. Take portions from the mixture and quickly roll them into small balls using your hands. Place the laddoos on a plate to cool. You can also store these laddoos in a clean jar for later consumption. </li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/53941610.cms?imgsize=101853</imageurl>
-		<videourl>https://www.youtube.com/embed/xkleOhNuPsY</videourl>
-		<source>https://recipes.timesofindia.com/recipes</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -1390,8 +1451,12 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>25</totaltime>
 		<quantity>Will serve for 2 people </quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>This dessert recipe is made using carrot, milk and honey</description>
 		<ingredient>
 			<li> 1 grated carrot  </li>
@@ -1408,8 +1473,7 @@
 			<li>Now add your cashew nuts and cardamom and serve it hot.</li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/55752513.cms?imgsize=82785</imageurl>
-		<videourl>https://www.youtube.com/embed/42OeL7lK9g4</videourl>
-		<source>https://recipes.timesofindia.com/recipes</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -1419,8 +1483,12 @@
 		<cooktime>25 min</cooktime>
 		<totaltime>30</totaltime>
 		<quantity>Will serve for 4 people </quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>Rice Vermicelli is deliciously simmered with milk-sugar and flavoured with green cardamom, saffron and kewra water</description>
 		<ingredient>
 			<li> 1 litre milk </li>
@@ -1441,8 +1509,6 @@
 			<li>Add kewra essence and soaked saffron in sevaiyan. Remove from flame and let it cool down. When cool, add condensed milk. Lastly, add raisins, dates and almonds. Serve hot or cold. </li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/61889491.cms?imgsize=412173</imageurl>
-		<videourl>https://www.youtube.com/embed/-iD2IEGoHIM</videourl>
-		<source>https://recipes.timesofindia.com/recipes</source>
 	</recipe>
 
 
@@ -1453,7 +1519,11 @@
 		<cooktime>15 mints</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Will serve 2 people</quantity>
-		<taste>Mild Spice</taste>
+		<allergy>
+			<type>Nuts</type>
+			<type>Diary</type>
+		</allergy>
+		<spicelevel type="Hot">Mild</spicelevel>
 		<description>Upma is one of the most easiest healthy breakfast and can be done in a jiffy</description>
 		<ingredient>
 			<li>Rava /semolina/sooji (any type of rava) - 1 cup</li>
@@ -1480,8 +1550,7 @@
 			<li>Once the rava absorbs all the water, cover and cook on low flame for 6-7 minutes. Do not forget to stir in between.</li>
 		</preparation>
 		<imageurl>https://recipes.timesofindia.com/photo/57702148.cms?imgsize=434226</imageurl>
-		<videourl>https://www.youtube.com/embed/iHHJkTnULS4</videourl>
-		<source>http://www.padhuskitchen.com/2013/11/rava-upma-recipe-how-to-make-upma-quick.html</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -1492,8 +1561,12 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>15 min</totaltime>
 		<quantity>Will serve 2 people</quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>The perfect quick sweet to prepare using a microwave</description>
 		<ingredient>
 			<li> 1/2 can of sweetened condensed milk </li>
@@ -1506,8 +1579,6 @@
 			<li>Add nuts and sugar if you want.  </li>
 		</preparation>
 		<imageurl>http://cooksjoy.com/blog/wp-content/uploads/2012/06/Palkova-1.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/68OB18loXqs</videourl>
-		<source>https://www.cookingandme.com/</source>
 	</recipe>
 
 
@@ -1538,8 +1609,7 @@
 			<li>Mix it well with dry spoon. Transfer it to a dry and a clean container. You can serve this immediately but if you rest it for about an hour, it tastes better.</li>
 		</preparation>
 		<imageurl>https://4.imimg.com/data4/GR/VB/MY-34529666/sweet-mango-pickle-250x250.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/8fRgUaZMIDM</videourl>
-		<source>https://simpleindianrecipes.com</source>
+		<videourl>https://www.youtube.com/watch?v=8fRgUaZMIDM</videourl>
 	</recipe>
 
 
@@ -1550,7 +1620,7 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>15</totaltime>
 		<quantity>Serve 4 people</quantity>
-		<taste>Medium Spice</taste>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>This is an easy side dish well accompanied with idli/dosa</description>
 		<ingredient>
 			<li>6 teaspoon sesame oil.</li>
@@ -1573,8 +1643,7 @@
 			<li>Enjoy your thokku with rice, idli, dosa etc…</li>
 		</preparation>
 		<imageurl>https://d3pd5n51epb5zm.cloudfront.net/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/o/n/onion-thokku.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/-ZgcpVg5GDQ</videourl>
-		<source>https://www.kannammacooks.com</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -1585,8 +1654,10 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>15</totaltime>
 		<quantity>Serves 3-4 people</quantity>
-		<allergy>Contains Dairy</allergy>
-		<taste>Medium Spice</taste>
+		<allergy>
+			<type>Dairy</type>
+		</allergy>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>This is an easy side dish well accompanied with rice/roti.</description>
 		<ingredient>
 			<li>6 Whole Cashewnuts</li>
@@ -1629,8 +1700,7 @@
 			<li>Serve hot with chapati/parotta</li>
 		</preparation>
 		<imageurl>http://thewanderlustkitchen.com/wp-content/uploads/2016/10/indian-vegetable-korma-recipe-5.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/aHdS5iriYQI</videourl>
-		<source>https://www.kannammacooks.com</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -1641,7 +1711,7 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>15</totaltime>
 		<quantity>will serve 4 people</quantity>
-		<taste>Sweet</taste>
+		<spicelevel type="sweet">Sweet</spicelevel>
 		<description>This is a dessert which can be served usually after lunch/dinner.</description>
 		<ingredient>
 			<li>1 cup sugar</li>
@@ -1662,8 +1732,7 @@
 			<li>Serve the kesari warm.</li>
 		</preparation>
 		<imageurl>https://photo2.foodgawker.com/wp-content/uploads/2012/12/1130935.jpeg</imageurl>
-		<videourl>https://www.youtube.com/embed/Y5v_65iXpY0</videourl>
-		<source>https://www.kannammacooks.com</source>
+		<videourl></videourl>
 	</recipe>
 	
 
@@ -1674,8 +1743,10 @@
 		<cooktime>15 min</cooktime>
 		<totaltime>25</totaltime>
 		<quantity>Will serves 4-5 people</quantity>
-		<allergy>Contains Dairy</allergy>
-		<taste>Medium Spice</taste>
+		<allergy>
+			<type>Dairy</type>
+		</allergy>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>This is can be served with dosa/idly</description>
 		<ingredient>
 			<li>1/2 fresh whole coconut, drained and grated</li>
@@ -1690,8 +1761,7 @@
 			<li>Heat the oil in a medium saucepan over medium heat. Stir in chili peppers, mustard seed, and cumin seeds. Cook until mustard seeds start to pop. Spoon over the coconut mixture. Cover, and refrigerate until serving.</li>
 		</preparation>
 		<imageurl>http://cdn1.foodviva.com/static-content/food-images/coconut-recipes/coconut-chutney-recipe/coconut-chutney-recipe-250.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/oP6U692zKQA</videourl>
-		<source>recipes.com/recipes/233/world-cuisine/asian/indian/</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -1701,7 +1771,7 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>20</totaltime>
 		<quantity>Serve 4 people</quantity>
-		<taste>Medium Spice</taste>
+		<spicelevel type="Hot">Medium</spicelevel>
 		<description>This is an easy side dish well accompanied with chapati.</description>
 		<ingredient>
 			<li>1 kg bendakaya (bhindi), chopped into small pieces</li>
@@ -1725,8 +1795,7 @@
 			<li>Serve hot with chapatis</li>
 		</preparation>
 		<imageurl>http://kannammacooks.com/wp-content/uploads/vendakkai-poriyal-bhindi-fry-ladies-finger-okra.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/czi89bp85yw</videourl>
-		<source>http://www.vegrecipesofindia.com</source>
+		<videourl></videourl>
 	</recipe>
 
 	<recipe>
@@ -1736,8 +1805,12 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>15</totaltime>
 		<quantity>Will serve for 3 people </quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>Rava balls</description>
 		<ingredient>
 			<li> 1 cup of rava </li>
@@ -1754,8 +1827,7 @@
 			<li>When the ladoo mixture is warm enough to handle, make into lemon-sized balls and gently set aside. </li>
 		</preparation>
 		<imageurl>https://asmallbite.com/wp-content/uploads/2017/10/Rava-Ladoo-Recipe.jpg</imageurl>
-		<videourl>https://www.youtube.com/embed/wnOjgs3wN50</videourl>
-		<source>https://www.cookingandme.com/</source>
+		<videourl></videourl>
 	</recipe>
 
 
@@ -1766,8 +1838,12 @@
 		<cooktime>10 min</cooktime>
 		<totaltime>15</totaltime>
 		<quantity>Will serve to 3 people</quantity>
-		<allergy>Contains Gluten, Dairy, Nuts</allergy>
-		<taste>Sweet</taste>
+		<allergy>
+			<type>Gluten</type>
+			<type>Dairy</type>
+			<type>Nuts</type>
+		</allergy>
+		<spicelevel type="Sweet">Sweet</spicelevel>
 		<description>Sweet Coconut balls</description>
 		<ingredient>
 			<li> 1 cup of sweeted condensed milk</li>
@@ -1781,11 +1857,7 @@
 			<li>When the mixture turns quite thick and start to roll into a ball </li>
 		</preparation>
 		<imageurl>https://4.bp.blogspot.com/-0YGaJ-sDHoU/Vl8oP2sRVjI/AAAAAAAAAMo/phtyey9jtsw/s1600/IMG_6963.JPG</imageurl>
-		<videourl>https://www.youtube.com/embed/_-6A7ClSizU</videourl>
-		<source>https://www.cookingandme.com/</source>
 	</recipe>
-
-
 
 
 </cookbook>
