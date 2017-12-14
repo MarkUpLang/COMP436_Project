@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.css" media="screen" type="text/css">
+   <!-- <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'> 
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style-portfolio.css">
+    <link rel="stylesheet" href="css/picto-foundry-food.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon-1.ico" type="image/x-icon"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    
+   
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Bhojan</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                        <li><a class="navactive color_animation" href="#top">Home</a></li>
+                        <li><a class="color_animation" href="#story">About</a></li>
+                        <li><a class="color_animation" href="#Recipes" onclick="displayResult('north')" >Recipes</a></li>
+                        <li style="margin-top:22px"><input id="search" type="text" class="form-control" placeholder="Search"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="top" class="starter_container bg">
+        <div class="follow_container">
+            <div class="col-md-6 col-md-offset-3">
+          
+            </div>
+        </div>
+    </div>
+
+
+    <section id="story" class="description_content">
+        <div class="text-content container">
+             <div class="col-md-6 col-lg-6">
+                <h1>About us</h1>
+            </div>
+            <div class="col-md-12 col-lg-12">
+                <br>
+                <p class="desc-text" style="font-style: italic; font-weight: bold;">
+                    "What you eat today will influence the way you think, in turn influencing your future. Eat lovingly and you will be loved; eat mercilessly and the world will not be compassionate to you. " By Moni Singh
+                </p>
+                <p class="desc-text">
+                   The traditional food of India has been widely appreciated for its fabulous use of herbs and spices.Indian cuisine is known for its large assortment of dishes. Indian recipes are known for its complex aromatic flavors, which makes it a little bit tricky to try cooking it. 
+                </p>
+                <p class="desc-text">
+                    We have tried to simplify the recipes in terms of ingredients involved and the cooking procedure. We have made sure that the cooking time suits the fast-paced lifestyle, hence the recipes would be on the table within 30 mins. Information regarding the allergies can be found using the filter. 
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <div class="img-section-space"></div>
+
+    <section id="Recipes" class="description_content">
+        <div class="text-content container">
+            <div class="col-md-6">
+                <h1>Recipes</h1>
+                <div class="container">
+                    <div class="panel with-nav-tabs panel-default">
+                        <div class="panel-heading">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#north" data-toggle="tab" onclick="displayResult('north')">North</a></li>
+                                <li><a href="#south" data-toggle="tab" onclick="displayResult('south')">South</a></li>
+                                
+                                <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown">Taste<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li class="dropdown-header">Spicy Level</li>
+                                        <li><a href="#mild" data-toggle="tab" onclick="displayResult('mild')">Mild</a></li>
+                                        <li><a href="#medium" data-toggle="tab" onclick="displayResult('medium')">Medium</a></li>
+                                        <li><a href="#spicy" data-toggle="tab" onclick="displayResult('spicy')">Spicy</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#sweet" data-toggle="tab" onclick="displayResult('sweet')">Sweet</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown">Food Allergy<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#dairy" data-toggle="tab" onclick="displayResult('dairy')">Dairy</a></li>
+                                        <li><a href="#gluten" data-toggle="tab" onclick="displayResult('gluten')">Gluten</a></li>
+                                        <li><a href="#nuts" data-toggle="tab" onclick="displayResult('nuts')">Nuts</a></li>
+                                    </ul>
+                                </li>
+
+                                 <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown">Duration<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#fifteen" data-toggle="tab" onclick="displayResult('fifteen')">15</a></li>
+                                        <li><a href="#twenty" data-toggle="tab" onclick="displayResult('twenty')">20</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#searchres" id="SearchResults" data-toggle="tab" onclick="MyFunction()">Search Results</a></li>
+                            </ul>
+                        </div>
+                        <div class="panel-body">
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="north"></div>
+                                <div class="tab-pane fade" id="south"></div>
+                                <div class="tab-pane fade" id="medium"></div>
+                                <div class="tab-pane fade" id="mild"></div>
+                                <div class="tab-pane fade" id="spicy"></div>
+                                <div class="tab-pane fade" id="sweet"></div>
+                                <div class="tab-pane fade" id="dairy"></div>
+                                <div class="tab-pane fade" id="gluten"></div>
+                                <div class="tab-pane fade" id="nuts"></div>
+                                <div class="tab-pane fade" id="ten"></div>
+                                <div class="tab-pane fade" id="fifteen"></div>
+                                <div class="tab-pane fade" id="twenty"></div>
+                                <div class="tab-pane fade" id="searchres"></div>
+                               <ul id="pagination-demo" class="pagination-lg pull-left"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="sub_footer">
+        <div class="container">
+            <div class="col-md-4">
+                <p class="sub-footer-text text-center"></p>
+            </div>
+            <div class="col-md-4">
+                <p class="sub-footer-text text-center">&copy; 2017 Restaurant All Rights are Reserverd</p>
+            </div>
+            <div class="col-md-4">
+                <p class="sub-footer-text text-center"></p>
+            </div>
+        </div>
+    </footer>
+
+
+   <!--  <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+    <!-- <script type="text/javascript" src="js/jquery-1.10.2.js"></script>-->
+<!--     <script type="text/javascript" src="js/jquery.mixitup.min.js"></script> 
+ -->    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquery.twbsPagination.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+</html>
